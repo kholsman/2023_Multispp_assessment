@@ -1,0 +1,2428 @@
+<!DOCTYPE html>
+<html class="no-js  page-200 app-FOSS" lang="en" >
+<head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>HOME</title>
+  <link rel="stylesheet" href="/apexfossi/libraries/oraclejet/7.2.0/css/libs/oj/v7.2.0/alta/oj-alta-notag-min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/apexfossi/app_ui/css/Core.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/apexfossi/app_ui/css/Theme-Standard.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/apexfossi/libraries/jquery-ui/1.12.1/jquery-ui-apex.min.css?v=19.2.0.00.18" type="text/css" />
+
+  <link rel="stylesheet" href="/apexfossi/libraries/font-apex/2.1/css/font-apex.min.css?v=19.2.0.00.18" type="text/css" />
+<link rel="stylesheet" href="/apexfossi/themes/theme_42/1.4/css/Core.min.css?v=19.2.0.00.18" type="text/css" />
+
+  
+  <link rel="stylesheet" href="pub_workspace/r/215/files/theme/150/v145/17641896040080365.css" type="text/css" />
+
+  
+  <style type="text/css">
+._acsAnimate._acsbadge--default{ 
+   display: none !important; 
+}
+.t-PageBody{
+   background: url(pub_workspace/r/215/files/static/v477/splash-water-splash-seas.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
+.t_Body_nav{
+    position: fixed;
+     top: 230px;
+}
+.GoButton {
+    -moz-box-shadow: 3px 4px 0px 0px #899599;
+    -webkit-box-shadow: 3px 4px 0px 0px #899599;
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+    background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#2f6370;
+    font-family:Arial;
+    font-size:17px;
+font-weight: bold;    
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+text-align:center;
+}
+.GoButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+    background-color:#bab1ba;
+}
+.GoButton:active {
+    position:relative;
+    top:1px;
+}
+.GoButton:focus { 
+    outline:0 !important; //remove blue border around the button in Chrome only
+}
+
+.SearchButton {
+    -moz-box-shadow: 3px 4px 0px 0px #899599;
+    -webkit-box-shadow: 3px 4px 0px 0px #899599;
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+    background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+   background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+   // background-image:url(pub_workspace/r/215/files/static/v477/m_glass.png);
+   // background-repeat:no-repeat;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+    background-color:#ededed;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#2f6370;
+    font-family:Arial;
+    font-size:17px;
+font-weight: bold;    
+   padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+text-align:center;
+}
+.SearchButton:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+    background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    //image:url(pub_workspace/r/215/files/static/v477/m_glass.png);
+    //background-repeat:no-repeat;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+    background-color:#bab1ba;
+}
+.SearchButton:active {
+    position:relative;
+    top:1px;
+}
+.SearchButton:focus { 
+    outline:0 !important; //remove blue border around the button in Chrome only
+}
+
+.t15Button{
+    margin-left: 10px }
+
+.a-IRR-headerLink::after{
+     content: url(pub_workspace/r/215/files/static/v477/sort_column_1.png);
+     top:    52px;
+     right:  50px;
+}
+.highlight_g{
+ background-color: gray;
+ //font-weight: bold; 
+// color: blue;
+}
+</style>
+
+  <link rel="shortcut icon" href="pub_workspace/r/215/files/static/v477/favicon.ico">
+<link rel="icon" sizes="16x16" href="pub_workspace/r/215/files/static/v477/favicon.ico">
+<link rel="icon" sizes="32x32" href="pub_workspace/r/215/files/static/v477/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="pub_workspace/r/215/files/static/v477/favicon.ico">
+  <style>
+.apexir_TOOLBAR_OPEN
+ {height: auto;
+ background: #F8F8F8; 
+-webkit-border-radius: 3px;
+border-radius: 3px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+border: 1px solid #AAA;
+background-image: -webkit-linear-gradient(#F8F8F8,#E8E8E8);
+background-image: -moz-linear-gradient(#f8f8f8,#e8e8e8);
+background-image: linear-gradient(#F8F8F8,#E8E8E8);}
+.apexir_TOOLBAR_CLOSE { background: #F8F8F8; border-radius: 3px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+background-image: -webkit-linear-gradient(#F8F8F8,#E8E8E8);
+background-image: -moz-linear-gradient(#f8f8f8,#e8e8e8);
+background-image: linear-gradient(#F8F8F8,#E8E8E8);}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="Expires" content="-1" /><meta http-equiv="Cache-Control" content="no-cache" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body class="t-PageBody t-PageBody--hideLeft t-PageBody--hideActions no-anim   apex-side-nav apex-icons-fontapex apex-theme-vita-copy-copy"  style="background: url(pub_workspace/r/215/files/static/v477/splash-water-splash-seas.jpg); background-repeat: no-repeat; background-size: cover"; id="t_PageBody">
+<a href="#main" id="t_Body_skipToContent">Skip to Main Content</a>
+<form action="wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" data-oj-binding-provider="none" novalidate  autocomplete="off">
+<input type="hidden" name="p_flow_id" value="215" id="pFlowId" /><input type="hidden" name="p_flow_step_id" value="200" id="pFlowStepId" /><input type="hidden" name="p_instance" value="12945397485704" id="pInstance" /><input type="hidden" name="p_page_submission_id" value="135044293378518449533743903004142268165" id="pPageSubmissionId" /><input type="hidden" name="p_request" value="" id="pRequest" /><input type="hidden" name="p_reload_on_submit" value="A" id="pReloadOnSubmit" /><input type="hidden" value="135044293378518449533743903004142268165" id="pSalt" />
+<header class="t-Header" id="t_Header">
+  <div class="t-Region t-Region--removeHeader t-Region--scrollBody" id="R205512175717260960" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R205512175717260960_heading">Header</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     <a href="https://www.fisheries.noaa.gov" >
+<div > 
+          <img class="site-header__logo" src="pub_workspace/r/215/files/static/v477/fisheries_header_logo_jul2019.png" alt="NOAA Fisheries Home Logo" style="width:210px;height:87px;>
+    </div>      
+</a>
+     
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+
+  <div class="t-Header-branding" role="banner">
+    <div class="t-Header-controls">
+      <button class="t-Button t-Button--icon t-Button--header t-Button--headerTree" aria-label="Expand / Collapse Navigation" title="Expand / Collapse Navigation" id="t_Button_navControl" type="button"><span class="t-Header-controlsIcon" aria-hidden="true"></span></button>
+    </div>
+    <div class="t-Header-logo">
+      <a href="f?p=215:103:12945397485704:::::" class="t-Header-logo-link"></a>
+    </div>
+    <div class="t-Header-navBar"><ul class="t-NavigationBar t-NavigationBar--classic" data-mode="classic">
+  <li class="t-NavigationBar-item">
+    <span class="t-Button t-Button--icon t-Button--noUI t-Button--header t-Button--navBar t-Button--headerUser">
+      <span class="t-Icon a-Icon icon-user"></span>
+      <span class="t-Button-label">nobody</span>
+    </span>
+  </li><li class="t-NavigationBar-item">
+  <a class="t-Button t-Button--icon t-Button--header" href="f&#x3F;p&#x3D;215&#x3A;101&#x3A;12945397485704&#x3A;&#x3A;NO&#x3A;101,102&#x3A;&#x3A;&#x26;cs&#x3D;3AZMP8f8GG36J8wvq_IqwdTCiVbyfWkvzQBVVM6eNbf7ts4EnYCTGo_JqRcq90tnLCVPi2qT7oockV_IKgZBjGw">
+    <span class="t-Icon "></span>
+    <span class="t-Button-label">Login</span>
+  </a>
+</li><li class="t-NavigationBar-item">
+  <a class="t-Button t-Button--icon t-Button--header" href="https&#x3A;&#x2F;&#x2F;www.fisheries.noaa.gov&#x2F;national&#x2F;commercial-fishing&#x2F;commercial-fisheries-landings">
+    <span class="t-Icon "></span>
+    <span class="t-Button-label"><p>Back to Commercial Fisheries</p></span>
+  </a>
+</li>
+</ul></div>
+  </div>
+  <div class="t-Header-nav"></div>
+</header>
+<!-- START Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M67WBF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M67WBF');</script>
+<!-- END Google Tag Manager ----><div class="t-Body">
+  <div class="t-Body-nav" id="t_Body_nav" role="navigation" aria-label="FOSS">
+<div class="t-TreeNav js-navCollapsed--hidden t-TreeNav--classic" id="t_TreeNav" data-id="200_tree" aria-label="FOSS"><ul style="display:none"><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:26:12945397485704::NO:::" title="">FUS Report</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:18:12945397485704::NO:::" title="">FUS Reports downloads</a></li></ul></li><li data-current="true" data-id="" data-disabled="" data-icon="fa&#x20;fa-ship"><a href="f?p=215:200:12945397485704::NO:::" title="">Landings</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:27:12945397485704::NO:::" title="">U.S. Territorial Landings</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-area-chart"><a href="f?p=215:8:12945397485704::NO:::" title="">Charts</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:24:12945397485704::NO:::" title="">Disposition</a></li></ul></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-globe"><a href="f?p=215:2:12945397485704::NO:::" title="">Foreign Trade</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:22:12945397485704::NO:::" title="">Annual Trade Report</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:21:12945397485704::NO:::" title="">Imports of Frozen Blocks</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:20:12945397485704::NO:RP::" title="">Imports of Shrimp</a></li></ul></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-flag-o"><a href="f?p=215:11:12945397485704::NO:::" title="">Top US Ports</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-cutlery"><a href="f?p=215:3:12945397485704::NO:::" title="">Processed Products</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-spoon"><a href="f?p=215:25:12945397485704::NO:::" title="">Per Capita Consumption</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-layout-list-left"><a href="f?p=215:23:12945397485704::NO:::" title="">Supply</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-anchor"><a href="f?p=215:4:12945397485704::NO:::" title="">USCG Vessels</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:28:12945397485704::NO:::" title="">AFSC GAP Survey</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:29:12945397485704::NO:::" title="">AFSC GAP Metadata</a></li></ul></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-handshake-o"><a href="f?p=215:215:12945397485704::NO:::" title="">Partners</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-cubes"><a href="f?p=215:240:12945397485704::NO:::" title="">Metadata and Caveats</a></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-question-circle"><a href="f?p=215:10:12945397485704::NO:::" title="">Frequently Asked Questions</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:10:12945397485704::NO:::" title="">FAQ Landings</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:12:12945397485704::NO:::" title="">FAQ Processed Products</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:13:12945397485704::NO:::" title="">FAQ Vessels</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:17:12945397485704::NO:::" title="">FAQ Foreign Trade</a></li></ul></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-book"><a href="f?p=215:7:12945397485704::NO:::" title="">Quick Start Guide</a><ul><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:14:12945397485704::NO:::" title="">Landings</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:15:12945397485704::NO:::" title="">Processed Products</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:16:12945397485704::NO:::" title="">Vessels</a></li><li data-id="" data-disabled="" data-icon=""><a href="f?p=215:5:12945397485704::NO:::" title="">Foreign Trade</a></li></ul></li><li data-id="" data-disabled="" data-icon="fa&#x20;fa-envelope-o"><a href="f?p=215:207:12945397485704::NO:::" title="">Comments</a></li></ul></div></div>
+  <div class="t-Body-main">
+    <div class="t-Body-title" id="t_Body_title"></div>
+    <div class="t-Body-content" id="t_Body_content">
+      <main id="main" class="t-Body-mainContent">
+        <span id="APEX_SUCCESS_MESSAGE" data-template-id="189795837996619098_S" class="apex-page-success u-hidden"></span><span id="APEX_ERROR_MESSAGE" data-template-id="189795837996619098_E" class="apex-page-error u-hidden"></span>
+        <div class="t-Body-fullContent"></div>
+        <div class="t-Body-contentInner"><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" ><input type="hidden" id="P0_CAM_LANDING_PAGE" name="P0_CAM_LANDING_PAGE" value="http:&#x2F;&#x2F;marlin.nmfs.noaa.gov:8080&#x2F;camDev&#x2F;portal&#x2F;?system=FOSS"><input type="hidden" data-for="P0_CAM_LANDING_PAGE" value="F1eYBz3Gh7DojQyDcC9JflV09Emq1Nsh3so2H7zYybTx5BIv_zeNXEM4zC2nzbGQITcLR2OCkol1l_G50sPqqg"><input type="hidden" id="P0_HOMEPAGE_NO" name="P0_HOMEPAGE_NO" value="200"><input type="hidden" data-for="P0_HOMEPAGE_NO" value="VqCS5uXShTHRMC2RKyff0QMhC44ryhtI4IQ6LX6Bh506QqkKvFPRQjYpDSA73YakaNlK-MCnHjVpbkRiHspu-Q"></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" style="color:white; overflow: auto; width: 50%;"><!--
+<a href="https://www.st.nmfs.noaa.gov/jira/secure/CreateIssueDetails!init.jspa?
+pid=10150&
+issuetype=1&
+priority=5&
+summary='test+issue+created%20by+hyperlink'&
+environment=fred@ia-team.com&
+description='this+is+the+description'"
+>Go To Jira Create Issue page</a>
+-->
+<div class="comments_text">
+<h2>LANDINGS</H2>
+<a href="https://apps-st.fisheries.noaa.gov/ods/foss/landings/" target="blank" style="color:white"><u>Landings data also available through API.</u></a></div>
+<p>
+<pre>
+<script type="text/javascript">
+var wshshell=new ActiveXObject("wscript.shell");
+var username=wshshell.ExpandEnvironmentStrings("%username%");
+document.writeln('browser='+navigator.appCodeName);
+document.writeln('version='+navigator.appVersion);
+document.writeln('platform='+navigator.platform);
+
+document.writeln('user='+username);
+
+</script>
+</pre>
+
+<!--
+for (param in location) {document.writeln (param, ':\n\t', location[param])}
+</script>
+</pre>
+-- or dump out all the apex cookies?
+var cookies  = document.cookie.replace(/ /g,"").split(";");
+   for (var i = 0; i < cookies.length; i++){
+     cookiePair = cookies[i].split("=");
+     document.write("["+cookiePair[0]+"] = ["+
+                    cookiePair[1]+"]<br><br>");
+   }
+-->
+</div>
+</div>
+</div><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto"  style="overflow: auto; width: 35%;"><div class="t-Region t-Region--scrollBody margin-bottom-md" id="R555781216409127259" >
+ <div class="t-Region-header">
+  <div class="t-Region-headerItems t-Region-headerItems--title">
+    <span class="t-Region-headerIcon"><span class="t-Icon " aria-hidden="true"></span></span>
+    <h2 class="t-Region-title" id="R555781216409127259_heading">PARAMETERS</h2>
+  </div>
+  <div class="t-Region-headerItems t-Region-headerItems--buttons"><span class="js-maximizeButtonContainer"></span></div>
+ </div>
+ <div class="t-Region-bodyWrap">
+   <div class="t-Region-buttons t-Region-buttons--top">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+   <div class="t-Region-body">
+     
+     <div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" ><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--checkbox " id="P200_COLLECTION_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_COLLECTION" id="P200_COLLECTION_LABEL" class="t-Form-label"><strong>Data Set </strong></label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><span class="t-Form-itemText t-Form-itemText--pre"><strong></span><div tabindex="-1"  id="P200_COLLECTION" aria-labelledby="P200_COLLECTION_LABEL" class="checkbox_group&#x20;apex-item-group&#x20;apex-item-group--rc&#x20;apex-item-checkbox"  role="group" aria-labelledby="P200_COLLECTION_LABEL">
+<div class="apex-item-option"><input type="checkbox" id="P200_COLLECTION_0" name="P200_COLLECTION" value="Commercial" checked="checked" required style="color "><label for="P200_COLLECTION_0">Commercial</label></div>
+<div class="apex-item-option"><input type="checkbox" id="P200_COLLECTION_1" name="P200_COLLECTION" value="Recreational"  style="color "><label for="P200_COLLECTION_1">Recreational</label></div>
+</div>
+<span class="t-Form-itemText t-Form-itemText--post"></strong></span></div><span id="P200_COLLECTION_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--shuttle " id="P200_YEAR_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_YEAR" id="P200_YEAR_LABEL" class="t-Form-label"><strong> Year</strong> </label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><div class="apex-item-group apex-item-group--shuttle" role="group" id="P200_YEAR" aria-labelledby="P200_YEAR_LABEL" tabindex="-1"><table cellpadding="0" cellspacing="0" border="0" role="presentation"  class="shuttle"><tr>
+<td class="shuttleSelect1">
+<select title="Move from" multiple="multiple" id="P200_YEAR_LEFT" size="6" class="shuttle_left apex-item-select">
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+<option value="1979">1979</option>
+<option value="1978">1978</option>
+<option value="1977">1977</option>
+<option value="1976">1976</option>
+<option value="1975">1975</option>
+<option value="1974">1974</option>
+<option value="1973">1973</option>
+<option value="1972">1972</option>
+<option value="1971">1971</option>
+<option value="1970">1970</option>
+<option value="1969">1969</option>
+<option value="1968">1968</option>
+<option value="1967">1967</option>
+<option value="1966">1966</option>
+<option value="1965">1965</option>
+<option value="1964">1964</option>
+<option value="1963">1963</option>
+<option value="1962">1962</option>
+<option value="1961">1961</option>
+<option value="1960">1960</option>
+<option value="1959">1959</option>
+<option value="1958">1958</option>
+<option value="1957">1957</option>
+<option value="1956">1956</option>
+<option value="1955">1955</option>
+<option value="1954">1954</option>
+<option value="1953">1953</option>
+<option value="1952">1952</option>
+<option value="1951">1951</option>
+<option value="1950">1950</option>
+</select></td>
+<td align="center" class="shuttleControl">
+<button id="P200_YEAR_RESET" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Reset" aria-label="Reset"> <span class="a-Icon icon-shuttle-reset" aria-hidden="true"></span></button><button id="P200_YEAR_MOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move All" aria-label="Move All"> <span class="a-Icon icon-shuttle-move-all" aria-hidden="true"></span></button><button id="P200_YEAR_MOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move" aria-label="Move"> <span class="a-Icon icon-shuttle-move" aria-hidden="true"></span></button><button id="P200_YEAR_REMOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove" aria-label="Remove"> <span class="a-Icon icon-shuttle-remove" aria-hidden="true"></span></button><button id="P200_YEAR_REMOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove All" aria-label="Remove All"> <span class="a-Icon icon-shuttle-remove-all" aria-hidden="true"></span></button></td>
+<td class="shuttleSelect2">
+<select title="Move to" multiple="multiple" id="P200_YEAR_RIGHT" size="6"  name="P200_YEAR" class="shuttle_right&#x20;apex-item-select" >
+</select></td>
+<td align="center" class="shuttleSort2">
+<button id="P200_YEAR_TOP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Top" aria-label="Top"> <span class="a-Icon icon-shuttle-top" aria-hidden="true"></span></button><button id="P200_YEAR_UP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Up" aria-label="Up"> <span class="a-Icon icon-shuttle-up" aria-hidden="true"></span></button><button id="P200_YEAR_DOWN" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Down" aria-label="Down"> <span class="a-Icon icon-shuttle-down" aria-hidden="true"></span></button><button id="P200_YEAR_BOTTOM" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Bottom" aria-label="Bottom"> <span class="a-Icon icon-shuttle-bottom" aria-hidden="true"></span></button></td>
+</table></div>
+<button class="t-Form-helpButton js-itemHelp" data-itemhelp="276741012388676060" title="Help Text: <strong> Year</strong> " aria-label="Help Text: <strong> Year</strong> " tabindex="-1" type="button"><span class="a-Icon icon-help" aria-hidden="true"></span></button></div><span id="P200_YEAR_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--radiogroup " id="P200_GEO_LOV_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_GEO_LOV" id="P200_GEO_LOV_LABEL" class="t-Form-label"><strong>Region Type</strong></label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><span class="t-Form-itemText t-Form-itemText--pre"><STRONG></span><div tabindex="-1"  id="P200_GEO_LOV" aria-labelledby="P200_GEO_LOV_LABEL" class="radio_group&#x20;apex-item-group&#x20;apex-item-group--rc&#x20;apex-item-radio"  role="group" aria-labelledby="P200_GEO_LOV_LABEL">
+<div  class="apex-item-grid radio_group">
+<div class="apex-item-grid-row">
+<div class="apex-item-option"><input type="radio" id="P200_GEO_LOV_0" name="P200_GEO_LOV" value="1025" checked="checked" style="color "><label for="P200_GEO_LOV_0">States</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_GEO_LOV_1" name="P200_GEO_LOV" value="1021"  style="color "><label for="P200_GEO_LOV_1">NMFS Regions</label></div>
+</div></div></div>
+<span class="t-Form-itemText t-Form-itemText--post"></STRONG></span></div><span id="P200_GEO_LOV_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--shuttle " id="P200_GEOGRAPHY_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_GEOGRAPHY" id="P200_GEOGRAPHY_LABEL" class="t-Form-label"><strong> State Landed</strong> </label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><div class="apex-item-group apex-item-group--shuttle" role="group" id="P200_GEOGRAPHY" aria-labelledby="P200_GEOGRAPHY_LABEL" tabindex="-1"><table cellpadding="0" cellspacing="0" border="0" role="presentation"  class="shuttle"><tr>
+<td class="shuttleSelect1">
+<select title="Move from" multiple="multiple" id="P200_GEOGRAPHY_LEFT" size="5" class="shuttle_left apex-item-select">
+<option value="31">ALABAMA</option>
+<option value="32">ALASKA</option>
+<option value="62">CALIFORNIA</option>
+<option value="55">CONNECTICUT</option>
+<option value="15">DELAWARE</option>
+<option value="53">FLORIDA-EAST</option>
+<option value="68146">FLORIDA-WEST</option>
+<option value="63">GEORGIA</option>
+<option value="12">HAWAII</option>
+<option value="77">ILLINOIS</option>
+<option value="78">INDIANA</option>
+<option value="65">LOUISIANA</option>
+<option value="24">MAINE</option>
+<option value="25">MARYLAND</option>
+<option value="74">MASSACHUSETTS</option>
+<option value="82">MICHIGAN</option>
+<option value="83">MINNESOTA</option>
+<option value="54">MISSISSIPPI</option>
+<option value="46">NEW HAMPSHIRE</option>
+<option value="13">NEW JERSEY</option>
+<option value="67">NEW YORK</option>
+<option value="26">NORTH CAROLINA</option>
+<option value="88">OHIO</option>
+<option value="17">OREGON</option>
+<option value="39">PENNSYLVANIA</option>
+<option value="68389">PROCESS AT SEA</option>
+<option value="49">RHODE ISLAND</option>
+<option value="61">SOUTH CAROLINA</option>
+<option value="40">TEXAS</option>
+<option value="14">VIRGINIA</option>
+<option value="37">WASHINGTON</option>
+<option value="95">WISCONSIN</option>
+</select></td>
+<td align="center" class="shuttleControl">
+<button id="P200_GEOGRAPHY_RESET" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Reset" aria-label="Reset"> <span class="a-Icon icon-shuttle-reset" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_MOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move All" aria-label="Move All"> <span class="a-Icon icon-shuttle-move-all" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_MOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move" aria-label="Move"> <span class="a-Icon icon-shuttle-move" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_REMOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove" aria-label="Remove"> <span class="a-Icon icon-shuttle-remove" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_REMOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove All" aria-label="Remove All"> <span class="a-Icon icon-shuttle-remove-all" aria-hidden="true"></span></button></td>
+<td class="shuttleSelect2">
+<select title="Move to" multiple="multiple" id="P200_GEOGRAPHY_RIGHT" size="5"  name="P200_GEOGRAPHY" class="shuttle_right&#x20;apex-item-select" >
+</select></td>
+<td align="center" class="shuttleSort2">
+<button id="P200_GEOGRAPHY_TOP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Top" aria-label="Top"> <span class="a-Icon icon-shuttle-top" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_UP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Up" aria-label="Up"> <span class="a-Icon icon-shuttle-up" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_DOWN" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Down" aria-label="Down"> <span class="a-Icon icon-shuttle-down" aria-hidden="true"></span></button><button id="P200_GEOGRAPHY_BOTTOM" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Bottom" aria-label="Bottom"> <span class="a-Icon icon-shuttle-bottom" aria-hidden="true"></span></button></td>
+</table></div>
+</div><span id="P200_GEOGRAPHY_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--shuttle " id="P200_SPECIES_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_SPECIES" id="P200_SPECIES_LABEL" class="t-Form-label"><strong> Species</strong> </label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><div class="apex-item-group apex-item-group--shuttle" role="group" id="P200_SPECIES" aria-labelledby="P200_SPECIES_LABEL" tabindex="-1"><table cellpadding="0" cellspacing="0" border="0" role="presentation"  class="shuttle"><tr>
+<td class="shuttleSelect1">
+<select title="Move from" multiple="multiple" id="P200_SPECIES_LEFT" size="10" class="shuttle_left apex-item-select">
+<option value="9999999999"> ALL SPECIES</option>
+<option value="69498">Abalone, Black </option>
+<option value="69500">Abalone, Green </option>
+<option value="69499">Abalone, Pink </option>
+<option value="69497">Abalone, Red </option>
+<option value="69502">Abalone, White </option>
+<option value="69492">Abalones **</option>
+<option value="165571">Agujon </option>
+<option value="161706">Alewife </option>
+<option value="166156">Alfonsino </option>
+<option value="551771">Alligator, American </option>
+<option value="168689">Amberjack, Greater </option>
+<option value="168690">Amberjack, Lesser </option>
+<option value="168688">Amberjacks **</option>
+<option value="173608">Amphiumas **</option>
+<option value="553173">Anchovies **</option>
+<option value="551384">Anchovies, Hawaiian </option>
+<option value="161839">Anchovy, Bay </option>
+<option value="161841">Anchovy, Bigeye </option>
+<option value="161847">Anchovy, Deepbody </option>
+<option value="161842">Anchovy, Dusky </option>
+<option value="161846">Anchovy, Key </option>
+<option value="161828">Anchovy, Northern </option>
+<option value="161830">Anchovy, Silver </option>
+<option value="161838">Anchovy, Striped </option>
+<option value="52627">Anemone, Giant Caribbean </option>
+<option value="52541">Anemone, Other **</option>
+<option value="52774">Anemone, Ringed </option>
+<option value="52794">Anemone, Speckled </option>
+<option value="52830">Anemone, Sun </option>
+<option value="52433">Anemone, Sun Zoanthid **</option>
+<option value="169626">Angelfish, Blue </option>
+<option value="169633">Angelfish, French </option>
+<option value="169632">Angelfish, Gray </option>
+<option value="169623">Angelfish, Queen </option>
+<option value="553237">Angelfishes **</option>
+<option value="202423">Animalia **</option>
+<option value="48739">Animals, Hydralike **</option>
+<option value="173885">Anole, Green </option>
+<option value="162068">Argentine, Pacific </option>
+<option value="165461">Balao </option>
+<option value="173392">Balloonfish </option>
+<option value="165460">Ballyhoo </option>
+<option value="165459">Ballyhoos **</option>
+<option value="173311">Baloonfish, Speckled </option>
+<option value="166816">Barbfish </option>
+<option value="167801">Barbier, Red </option>
+<option value="170448">Barbu </option>
+<option value="650251">Barracuda, Great </option>
+<option value="170431">Barracuda, Hellers </option>
+<option value="170426">Barracuda, Pacific </option>
+<option value="170425">Barracudas, Sphyraena (Genus) **</option>
+<option value="170424">Barracudas, Sphyraenidae (Family) **</option>
+<option value="172512">Barrelfish </option>
+<option value="167676">Bass Genus, Temperate **</option>
+<option value="167690">Bass, Bank Sea </option>
+<option value="167687">Bass, Black Sea </option>
+<option value="167851">Bass, Blackear </option>
+<option value="167819">Bass, Cave </option>
+<option value="167861">Bass, Chalk </option>
+<option value="167860">Bass, Harlequin </option>
+<option value="165464">Bass, Hookthroat </option>
+<option value="167832">Bass, Kelp </option>
+<option value="167852">Bass, Lantern </option>
+<option value="168160">Bass, Largemouth </option>
+<option value="167800">Bass, Longtail </option>
+<option value="167820">Bass, Peppermint </option>
+<option value="168097">Bass, Rock </option>
+<option value="167691">Bass, Rock Sea </option>
+<option value="643155">Bass, Roughtongue </option>
+<option value="167846">Bass, School </option>
+<option value="550562">Bass, Smallmouth </option>
+<option value="168161">Bass, Spotted </option>
+<option value="167680">Bass, Striped </option>
+<option value="167841">Bass, Threadfin </option>
+<option value="167772">Bass, Threadnose </option>
+<option value="167682">Bass, White </option>
+<option value="169387">Bass, White Sea </option>
+<option value="167818">Bass, Wrasse </option>
+<option value="167683">Bass, Yellow </option>
+<option value="167868">Bass, Yellowtail </option>
+<option value="167686">Basses, Mixed Sea **</option>
+<option value="167827">Basslet, Candy </option>
+<option value="168014">Basslet, Threeline </option>
+<option value="164593">Batfish, Other **</option>
+<option value="615345">Beaugregory </option>
+<option value="169625">Beauty, Rock </option>
+<option value="168178">Bigeye </option>
+<option value="168184">Bigeye, Hawaiian </option>
+<option value="168190">Bigeye, Short </option>
+<option value="168176">Bigeyes **</option>
+<option value="172486">Billfishes **</option>
+<option value="157988">Biscuit, Inflated Sea </option>
+<option value="157987">Biscuits, Sea **</option>
+<option value="163589">Blackfish, Sacramento </option>
+<option value="170085">Blacksmith </option>
+<option value="171430">Blenny, Banded </option>
+<option value="171200">Blenny, Barred </option>
+<option value="171158">Blenny, Bay </option>
+<option value="171198">Blenny, Crested </option>
+<option value="171156">Blenny, Feather </option>
+<option value="171165">Blenny, Florida </option>
+<option value="638337">Blenny, Glass </option>
+<option value="171415">Blenny, Hairy </option>
+<option value="171433">Blenny, Marbled </option>
+<option value="171412">Blenny, Mimic </option>
+<option value="171124">Blenny, Other **</option>
+<option value="171203">Blenny, Redlip </option>
+<option value="171159">Blenny, Rockpool </option>
+<option value="171423">Blenny, Saddled </option>
+<option value="171405">Blenny, Sailfin </option>
+<option value="171164">Blenny, Striped </option>
+<option value="171474">Blenny, Wrasse </option>
+<option value="80289">Bleufer </option>
+<option value="168559">Bluefish </option>
+<option value="168141">Bluegill </option>
+<option value="170568">Bluehead </option>
+<option value="166271">Boarfishes **</option>
+<option value="161121">Bonefish </option>
+<option value="553410">Bonefish, Smallmouth </option>
+<option value="172409">Bonito, Atlantic </option>
+<option value="172408">Bonito, Pacific </option>
+<option value="172410">Bonito, Striped </option>
+<option value="168830">Bonnetmouth </option>
+<option value="161104">Bowfin </option>
+<option value="173235">Boxfishes **</option>
+<option value="166155">Bream, Red </option>
+<option value="169190">Bream, Sea </option>
+<option value="164818">Brotula, Bearded </option>
+<option value="164988">Brotula, Black </option>
+<option value="164966">Brotula, Key </option>
+<option value="155469">Bryozoa **</option>
+<option value="163954">Buffalofishes **</option>
+<option value="168195">Bulleye </option>
+<option value="164039">Bullhead, Black </option>
+<option value="164043">Bullhead, Brown </option>
+<option value="164041">Bullhead, Yellow </option>
+<option value="164034">Bullheads **</option>
+<option value="564391">Bullnose Ray </option>
+<option value="168670">Bumper, Atlantic </option>
+<option value="164725">Burbot </option>
+<option value="173385">Burrfish, Bridled </option>
+<option value="615846">Burrfish, Striped </option>
+<option value="173383">Burrfishes **</option>
+<option value="568268">Butterclam, Washington </option>
+<option value="172567">Butterfish </option>
+<option value="172563">Butterfish Family **</option>
+<option value="172568">Butterfish, Gulf </option>
+<option value="160962">Butterfly Ray, Smooth </option>
+<option value="160961">Butterfly Ray, Spiny </option>
+<option value="169563">Butterflyfish, Banded </option>
+<option value="646776">Butterflyfish, Bank </option>
+<option value="169558">Butterflyfish, Foureye </option>
+<option value="646778">Butterflyfish, French </option>
+<option value="169663">Butterflyfish, Longnose </option>
+<option value="169593">Butterflyfish, Longsnout </option>
+<option value="169571">Butterflyfish, Racoon </option>
+<option value="169562">Butterflyfish, Reef </option>
+<option value="169556">Butterflyfish, Spotfin </option>
+<option value="169578">Butterflyfish, Teardrop </option>
+<option value="169554">Butterflyfishes, Chaetodontidae (Family) **</option>
+<option value="160963">Butterflyray, California </option>
+<option value="692068">Cabezon </option>
+<option value="167697">Cabrilla, Spotted </option>
+<option value="169195">Calamus **</option>
+<option value="162035">Capelin </option>
+<option value="168215">Cardinalfish, Bandfin </option>
+<option value="168222">Cardinalfish, Iridescent </option>
+<option value="168207">Cardinalfish, Twospot </option>
+<option value="168196">Cardinalfishes **</option>
+<option value="163692">Carp, Bighead </option>
+<option value="163344">Carp, Common </option>
+<option value="163537">Carp, Grass </option>
+<option value="163691">Carp, Silver </option>
+<option value="51774">Cassiopea, Jamaican </option>
+<option value="163997">Catfish, Blue </option>
+<option value="163998">Catfish, Channel </option>
+<option value="164029">Catfish, Flathead </option>
+<option value="164159">Catfish, Gafftopsail </option>
+<option value="680665">Catfish, Hardhead </option>
+<option value="164037">Catfish, White </option>
+<option value="163992">Catfishes **</option>
+<option value="163995">Catfishes, Bullhead **</option>
+<option value="163996">Catfishes, Forktail **</option>
+<option value="164157">Catfishes, Sea **</option>
+<option value="164066">Catfishes-Bullheads, Other **</option>
+<option value="172437">Cero </option>
+<option value="162001">Char, Arctic </option>
+<option value="169611">Cherubfish </option>
+<option value="78807">Chitons **</option>
+<option value="169074">Choice, Sailors </option>
+<option value="170080">Chromis, Blue </option>
+<option value="170084">Chromis, Brown </option>
+<option value="645471">Chub, Bermuda </option>
+<option value="169508">Chub, Gray </option>
+<option value="169509">Chub, Lowfin </option>
+<option value="169505">Chub, Yellow </option>
+<option value="161932">Chubs **</option>
+<option value="649465">Cichlid, Mayan </option>
+<option value="169770">Cichlids **</option>
+<option value="170616">Cigar </option>
+<option value="172546">Cigarfish, Bigeye </option>
+<option value="81796">Clam, Angelwing </option>
+<option value="79342">Clam, Ark, Blood </option>
+<option value="81649">Clam, Box, Jewel **</option>
+<option value="81027">Clam, California Jackknife </option>
+<option value="98477">Clam, File, Rough **</option>
+<option value="79820">Clam, File, Spiny </option>
+<option value="81386">Clam, Manila </option>
+<option value="81779">Clam, Pacific Geoduck </option>
+<option value="81464">Clam, Pacific Littleneck </option>
+<option value="81008">Clam, Pacific Razor </option>
+<option value="80954">Clam, Pacific, Gaper **</option>
+<option value="81501">Clam, Quahog, False </option>
+<option value="81496">Clam, Quahog, Northern </option>
+<option value="81343">Clam, Quahog, Ocean </option>
+<option value="81499">Clam, Quahog, Southern </option>
+<option value="80962">Clam, Rangia, Atlantic  </option>
+<option value="81022">Clam, Razor, Atlantic </option>
+<option value="81692">Clam, Soft </option>
+<option value="81272">Clam, Stout Tagelus (Stubby Razor&#x2F;Bamboo) </option>
+<option value="80983">Clam, Surf, Arctic </option>
+<option value="80944">Clam, Surf, Atlantic </option>
+<option value="81248">Clam, Variable Coquina </option>
+<option value="81579">Clam, Venus, Sunray </option>
+<option value="79118">Clams **</option>
+<option value="79578">Clams, Penshell **</option>
+<option value="81500">Clams, Pitar **</option>
+<option value="81495">Clams, Quahog, Mercenaria **</option>
+<option value="164459">Clingfish, Nothern </option>
+<option value="164457">Clingfishes **</option>
+<option value="171396">Clinid Family **</option>
+<option value="168566">Cobia </option>
+<option value="80873">Cockle, Nuttall </option>
+<option value="164706">Cod, Arctic </option>
+<option value="164712">Cod, Atlantic </option>
+<option value="164711">Cod, Pacific </option>
+<option value="164703">Cod, Toothed </option>
+<option value="164701">Codfishes **</option>
+<option value="167862">Comber, Painted </option>
+<option value="167128">Combfish, Longspine </option>
+<option value="167129">Combfish, Shortspine </option>
+<option value="74101">Conch, Crown </option>
+<option value="72556">Conch, Florida Fighting </option>
+<option value="72561">Conch, Hawkwing </option>
+<option value="74187">Conch, Horse </option>
+<option value="72557">Conch, Milk </option>
+<option value="70298">Conch, Other **</option>
+<option value="72554">Conchs **</option>
+<option value="72555">Conchs, True **</option>
+<option value="167749">Coney, Gulf </option>
+<option value="161328">Conger Eel, Mustache </option>
+<option value="173805">Cooter, River </option>
+<option value="52150">Coral, Deepwater </option>
+<option value="719026">Corallimorph, Discosoma **</option>
+<option value="52484">Corallimorph, Florida </option>
+<option value="52460">Corallimorpharia **</option>
+<option value="51938">Corals **</option>
+<option value="169280">Corbina, California </option>
+<option value="170668">Coris, Yellowstripe </option>
+<option value="166416">Cornetfish, Bluespotted </option>
+<option value="166417">Cornetfish, Red </option>
+<option value="644918">Cornetfish, Reef </option>
+<option value="169252">Corvina, Orangemouth </option>
+<option value="169251">Corvina, Shortfin </option>
+<option value="169067">Cottonwick </option>
+<option value="173246">Cowfish, Honeycombed </option>
+<option value="173245">Cowfish, Scrawled </option>
+<option value="72743">Cowrie, Atlantic Deer </option>
+<option value="568342">Cowrie, Atlantic Gray </option>
+<option value="72767">Cowrie, Measled </option>
+<option value="98679">Crab, Atlantic Rock </option>
+<option value="98134">Crab, Atlantic Sand </option>
+<option value="98696">Crab, Blue </option>
+<option value="99128">Crab, Blue Land </option>
+<option value="98675">Crab, Dungeness </option>
+<option value="98485">Crab, False Arrow </option>
+<option value="98811">Crab, Florida Stone </option>
+<option value="660512">Crab, Furcate Spider </option>
+<option value="620991">Crab, Golden Deepsea </option>
+<option value="98734">Crab, Green </option>
+<option value="98612">Crab, Green Clinging </option>
+<option value="98200">Crab, Hermit, Giant </option>
+<option value="98205">Crab, Hermit, Orangeclaw </option>
+<option value="97863">Crab, Hermit, Polkadotted </option>
+<option value="98194">Crab, Hermit, Stareye </option>
+<option value="98188">Crab, Hermit, Thinstripe </option>
+<option value="98191">Crab, Hermit, Tricolor </option>
+<option value="82703">Crab, Horseshoe </option>
+<option value="98678">Crab, Jonah </option>
+<option value="97934">Crab, King **</option>
+<option value="98714">Crab, Lady </option>
+<option value="98614">Crab, Mithraculus Ruber </option>
+<option value="99074">Crab, Nimble Spray </option>
+<option value="97943">Crab, Northern Stone </option>
+<option value="98170">Crab, Paguristes Erythrops </option>
+<option value="98168">Crab, Paguristes Puncticeps </option>
+<option value="98455">Crab, Portly Spider </option>
+<option value="620992">Crab, Red Deepsea </option>
+<option value="98737">Crab, Red Pacific </option>
+<option value="98672">Crab, Red Rock </option>
+<option value="98610">Crab, Red-Ridged Clinging </option>
+<option value="98888">Crab, Redfinger Rubble </option>
+<option value="98428">Crab, Snow </option>
+<option value="98427">Crab, Snow&#x2F;Tanner **</option>
+<option value="98429">Crab, Southern Tanner </option>
+<option value="98088">Crab, Spotted Porcelain </option>
+<option value="98483">Crab, Yellowline Arrow </option>
+<option value="98340">Crabs, Box **</option>
+<option value="98276">Crabs, Brachyura **</option>
+<option value="98671">Crabs, Cancer (Genus) **</option>
+<option value="98519">Crabs, Coral Spider **</option>
+<option value="95599">Crabs, Decapoda (Order) **</option>
+<option value="99084">Crabs, Fiddler **</option>
+<option value="99034">Crabs, Hemigrapsus **</option>
+<option value="206947">Crabs, Hermit, Paguroidea (Superfamily) **</option>
+<option value="97775">Crabs, Hermit, Pagurus (Genus) **</option>
+<option value="82702">Crabs, Horseshoe **</option>
+<option value="97916">Crabs, Land Hermit **</option>
+<option value="98453">Crabs, Libinia **</option>
+<option value="206956">Crabs, Majoidea **</option>
+<option value="98605">Crabs, Mithraculus **</option>
+<option value="98058">Crabs, Porcelain **</option>
+<option value="98131">Crabs, Sand **</option>
+<option value="98417">Crabs, Spider **</option>
+<option value="98810">Crabs, Stone **</option>
+<option value="168167">Crappie, Black </option>
+<option value="168166">Crappie, White </option>
+<option value="168165">Crappies **</option>
+<option value="97324">Crayfishes **</option>
+<option value="97306">Crayfishes, Freshwater **</option>
+<option value="167838">Creole-Fish </option>
+<option value="169283">Croaker, Atlantic </option>
+<option value="169358">Croaker, Black </option>
+<option value="646516">Croaker, Blue </option>
+<option value="169257">Croaker, Pacific White </option>
+<option value="169325">Croaker, Reef </option>
+<option value="646515">Croaker, Spotfin </option>
+<option value="646588">Croaker, Striped </option>
+<option value="169285">Croaker, Whitemouth </option>
+<option value="169303">Croaker, Yellowfin </option>
+<option value="83677">Crustaceans **</option>
+<option value="169319">Cubbyu </option>
+<option value="158323">Cucumber, Florida Sea </option>
+<option value="158195">Cucumber, Orange Footed Sea </option>
+<option value="158309">Cucumbers, Other Sea **</option>
+<option value="158140">Cucumbers, Sea **</option>
+<option value="170481">Cunner </option>
+<option value="164740">Cusk </option>
+<option value="690647">Cusk-Eel, Bank </option>
+<option value="164841">Cusk-Eel, Blotched </option>
+<option value="164831">Cusk-Eel, Fawn </option>
+<option value="164862">Cusk-Eel, Sleeper </option>
+<option value="172385">Cutlassfish, Atlantic </option>
+<option value="172386">Cutlassfish, Pacific </option>
+<option value="172384">Cutlassfishes **</option>
+<option value="162534">Daggertooth </option>
+<option value="615416">Damselfish, Bicolor </option>
+<option value="615412">Damselfish, Cocoa </option>
+<option value="615421">Damselfish, Dusky </option>
+<option value="615394">Damselfish, Longfin </option>
+<option value="170134">Damselfish, Rock </option>
+<option value="615485">Damselfish, Threespot </option>
+<option value="170116">Damselfish, Yellowtail </option>
+<option value="170044">Damselfishes **</option>
+<option value="166342">Dealfish </option>
+<option value="170503">Dick, Slippery </option>
+<option value="162377">Diver, Sand </option>
+<option value="172253">Doctorfish </option>
+<option value="158028">Dollar, Notched Sand </option>
+<option value="157989">Dollar, Sand </option>
+<option value="158019">Dollars, Keyhole Sand **</option>
+<option value="158018">Dollars, Other Sand **</option>
+<option value="158031">Dollars, Six-Holed Keyhole Sand **</option>
+<option value="168792">Dolphin,Pompano </option>
+<option value="168791">Dolphinfish </option>
+<option value="168790">Dolphinfish **</option>
+<option value="78255">Doris, Florida Regal </option>
+<option value="166284">Dory, Buckler </option>
+<option value="171691">Dragonets **</option>
+<option value="172513">Driftfish, Black </option>
+<option value="169269">Drum, Banded </option>
+<option value="169288">Drum, Black </option>
+<option value="169323">Drum, Blackbar </option>
+<option value="169364">Drum, Freshwater </option>
+<option value="169290">Drum, Red </option>
+<option value="169298">Drum, Sand </option>
+<option value="169317">Drum, Spotted </option>
+<option value="169292">Drum, Star </option>
+<option value="169237">Drums **</option>
+<option value="173174">Durgon, Black </option>
+<option value="173175">Durgon, Pinktail </option>
+<option value="160982">Eagle Ray, Southern </option>
+<option value="160978">Eagle Ray, Spotted </option>
+<option value="156857">Echinoderm **</option>
+<option value="161534">Eel, Academy </option>
+<option value="161127">Eel, American </option>
+<option value="161326">Eel, Conger </option>
+<option value="635520">Eel, Dragon Moray </option>
+<option value="161450">Eel, Goldspotted </option>
+<option value="161189">Eel, Moray, Blackedge </option>
+<option value="161237">Eel, Moray, Goldentail </option>
+<option value="161186">Eel, Moray, Green </option>
+<option value="161188">Eel, Moray, Spotted </option>
+<option value="161481">Eel, Palespotted </option>
+<option value="161449">Eel, Sharptail </option>
+<option value="635432">Eel, Shorttail Snake </option>
+<option value="161453">Eel, Speckled Worm </option>
+<option value="161423">Eel, Whip </option>
+<option value="161210">Eel, Whitemouth Moray </option>
+<option value="165215">Eelpout Family **</option>
+<option value="631024">Eelpout, Wolf </option>
+<option value="161123">Eels **</option>
+<option value="161324">Eels, Conger **</option>
+<option value="164807">Eels, Cusk **</option>
+<option value="161160">Eels, Moray **</option>
+<option value="161419">Eels, Snake **</option>
+<option value="169170">Emperor, Bigeye </option>
+<option value="169129">Emperors **</option>
+<option value="172362">Escolar </option>
+<option value="646153">Filefish, Barred </option>
+<option value="173132">Filefish, Dotterel </option>
+<option value="173179">Filefish, Fringed </option>
+<option value="646456">Filefish, Orange </option>
+<option value="173158">Filefish, Orangespotted </option>
+<option value="173183">Filefish, Planehead </option>
+<option value="173149">Filefish, Pygmy </option>
+<option value="173134">Filefish, Scrawled </option>
+<option value="173180">Filefish, Slender </option>
+<option value="173133">Filefish, Unicorn </option>
+<option value="173157">Filefish, Whitespotted </option>
+<option value="173178">Filefishes **</option>
+<option value="203428">Filefishes **</option>
+<option value="167798">Flag, Spanish </option>
+<option value="168085">Flagtail, Hawaiian </option>
+<option value="168204">Flamefish </option>
+<option value="172702">Flatfishes **</option>
+<option value="172877">Flounder, American Plaice </option>
+<option value="172862">Flounder, Arrowtooth </option>
+<option value="172740">Flounder, Broad </option>
+<option value="172789">Flounder, Deepwater </option>
+<option value="172793">Flounder, Dusky </option>
+<option value="172763">Flounder, Flowery </option>
+<option value="172739">Flounder, Fourspot </option>
+<option value="172729">Flounder, Fringed </option>
+<option value="172732">Flounder, Gray </option>
+<option value="172736">Flounder, Gulf </option>
+<option value="172719">Flounder, Gulf Stream </option>
+<option value="172776">Flounder, Mexican </option>
+<option value="616601">Flounder, Ocellated </option>
+<option value="172715">Flounder, Pacific, Sanddab **</option>
+<option value="172759">Flounder, Peacock </option>
+<option value="172773">Flounder, Pelican </option>
+<option value="172791">Flounder, Shoal </option>
+<option value="172730">Flounder, Smallmouth </option>
+<option value="172915">Flounder, Smoothback </option>
+<option value="172738">Flounder, Southern </option>
+<option value="172893">Flounder, Starry </option>
+<option value="172735">Flounder, Summer </option>
+<option value="172754">Flounder, Three-Eye </option>
+<option value="172905">Flounder, Winter </option>
+<option value="172873">Flounder, Witch </option>
+<option value="172909">Flounder, Yellowtail </option>
+<option value="172716">Flounder,Pacific,Sanddab </option>
+<option value="172726">Flounder,Pacific,Sanddab,Longfin </option>
+<option value="172717">Flounder,Pacific,Sanddab,Speckle </option>
+<option value="172714">Flounders, Lefteyed **</option>
+<option value="172734">Flounders, Paralichthys **</option>
+<option value="172859">Flounders, Righteye **</option>
+<option value="616682">Flyingfish, Atlantic </option>
+<option value="165435">Flyingfish, Clearwing </option>
+<option value="616685">Flyingfish, Smallhead </option>
+<option value="165431">Flyingfishes **</option>
+<option value="44030">Forams **</option>
+<option value="171480">Fringehead, Onespot </option>
+<option value="171478">Fringehead, Sarcastic </option>
+<option value="775091">Frog, Pig </option>
+<option value="164524">Frogfish, Ocellated </option>
+<option value="164518">Frogfishes, Antennariidae (Family) **</option>
+<option value="172382">Frostfish </option>
+<option value="551136">Frostfish, North Pacific </option>
+<option value="165882">Gambusia, Mangrove </option>
+<option value="201897">Gar, Alligator </option>
+<option value="161098">Gar, Florida </option>
+<option value="161094">Gar, Longnose </option>
+<option value="161096">Gar, Shortnose </option>
+<option value="161095">Gar, Spotted </option>
+<option value="161092">Garfishes **</option>
+<option value="170120">Garibaldi </option>
+<option value="161093">Gars, Slender **</option>
+<option value="81777">Generosa, Panopea </option>
+<option value="167694">Genus (Epinephelus), Grouper **</option>
+<option value="167758">Genus (Mycteroperca), Grouper **</option>
+<option value="161837">Genus, Anchovy **</option>
+<option value="168158">Genus, Bass **</option>
+<option value="169555">Genus, Butterflyfish **</option>
+<option value="164522">Genus, Frogfish **</option>
+<option value="167109">Genus, Greenling **</option>
+<option value="169057">Genus, Grunt **</option>
+<option value="168605">Genus, Jack **</option>
+<option value="164413">Genus, Midshipman **</option>
+<option value="170334">Genus, Mullet **</option>
+<option value="168574">Genus, Sharksucker **</option>
+<option value="165992">Genus, Silverside **</option>
+<option value="160226">Genus, Smoothhound **</option>
+<option value="168846">Genus, Snapper **</option>
+<option value="166171">Genus, Squirrelfish **</option>
+<option value="160947">Genus, Stingray **</option>
+<option value="161065">Genus, Sturgeon **</option>
+<option value="168130">Genus, Sunfish **</option>
+<option value="172251">Genus, Surgeonfish **</option>
+<option value="170446">Genus, Threadfin **</option>
+<option value="164422">Genus, Toadfish **</option>
+<option value="171336">Genus, Wolffish **</option>
+<option value="169442">Goatfish, Bandtail </option>
+<option value="169456">Goatfish, Blue </option>
+<option value="169453">Goatfish, Manybar </option>
+<option value="169417">Goatfish, Red </option>
+<option value="620933">Goatfish, Rosy </option>
+<option value="169451">Goatfish, Sidespot </option>
+<option value="169421">Goatfish, Spotted </option>
+<option value="169459">Goatfish, Threebarred </option>
+<option value="169452">Goatfish, Whitesaddle </option>
+<option value="169408">Goatfish, Yellow </option>
+<option value="169454">Goatfish, Yellowbarbel </option>
+<option value="169411">Goatfish, Yellowfin </option>
+<option value="169409">Goatfish, Yellowstripe </option>
+<option value="169406">Goatfishes **</option>
+<option value="171746">Gobies **</option>
+<option value="171748">Goby, Arrow </option>
+<option value="171762">Goby, Bay </option>
+<option value="636877">Goby, Blackeye </option>
+<option value="171808">Goby, Clown </option>
+<option value="171791">Goby, Code </option>
+<option value="171820">Goby, Frillfin </option>
+<option value="171769">Goby, Highfin </option>
+<option value="171764">Goby, Lyre </option>
+<option value="171789">Goby, Naked </option>
+<option value="636786">Goby, Neon </option>
+<option value="636783">Goby, Tiger </option>
+<option value="171832">Goby, Violet </option>
+<option value="171882">Goby, Yellowfin </option>
+<option value="636776">Goby, Yellowline </option>
+<option value="163350">Goldfish </option>
+<option value="164499">Goosefish </option>
+<option value="164500">Goosefish, Blackfin </option>
+<option value="52266">Gorgonian, Sea Blades </option>
+<option value="181220">Graysby </option>
+<option value="167110">Greenling, Kelp </option>
+<option value="167112">Greenling, Masked </option>
+<option value="167118">Greenling, Painted </option>
+<option value="167111">Greenling, Rock </option>
+<option value="167113">Greenling, Whitespotted </option>
+<option value="167108">Greenlings **</option>
+<option value="165427">Grenadier, Giant </option>
+<option value="165334">Grenadier, Pacific </option>
+<option value="165332">Grenadiers **</option>
+<option value="167760">Grouper, Black </option>
+<option value="167766">Grouper, Broomtail </option>
+<option value="167740">Grouper, Coney </option>
+<option value="167759">Grouper, Gag </option>
+<option value="167695">Grouper, Goliath </option>
+<option value="167765">Grouper, Gulf </option>
+<option value="167707">Grouper, Hawaiian </option>
+<option value="167744">Grouper, Marbled </option>
+<option value="167703">Grouper, Misty </option>
+<option value="167706">Grouper, Nassau </option>
+<option value="167752">Grouper, Peacock </option>
+<option value="167702">Grouper, Red </option>
+<option value="167705">Grouper, Snowy </option>
+<option value="167767">Grouper, Tiger </option>
+<option value="167704">Grouper, Warsaw </option>
+<option value="167699">Grouper, Yellowedge </option>
+<option value="167764">Grouper, Yellowfin </option>
+<option value="167762">Grouper, Yellowmouth </option>
+<option value="167674">Groupers, Serranidae (Family) **</option>
+<option value="167321">Grubby </option>
+<option value="166014">Grunion, California </option>
+<option value="169090">Grunt, Barred </option>
+<option value="169069">Grunt, Bluestriped </option>
+<option value="169093">Grunt, Burro </option>
+<option value="169063">Grunt, Caesar </option>
+<option value="169065">Grunt, French </option>
+<option value="169064">Grunt, Smallmouth </option>
+<option value="169066">Grunt, Spanish </option>
+<option value="169073">Grunt, Striped </option>
+<option value="613026">Grunt, White </option>
+<option value="169055">Grunts, Haemulidae (Family) **</option>
+<option value="170428">Guaguanche </option>
+<option value="160813">Guitarfish Family **</option>
+<option value="160815">Guitarfish, Atlantic </option>
+<option value="160826">Guitarfish, Banded </option>
+<option value="160818">Guitarfish, Shovelnose </option>
+<option value="171641">Gunnel, Crescent </option>
+<option value="171634">Gunnel, Penpoint </option>
+<option value="171635">Gunnel, Rockweed </option>
+<option value="171642">Gunnel, Saddleback </option>
+<option value="171632">Gunnels **</option>
+<option value="164744">Haddock </option>
+<option value="159772">Hagfish, Atlantic </option>
+<option value="159756">Hagfish, Black </option>
+<option value="622244">Hagfish, Pacific </option>
+<option value="159753">Hagfishes **</option>
+<option value="164736">Hake, Carolina </option>
+<option value="164735">Hake, Gulf </option>
+<option value="164802">Hake, Luminous </option>
+<option value="164793">Hake, Offshore </option>
+<option value="164792">Hake, Pacific (Whiting) </option>
+<option value="164730">Hake, Red </option>
+<option value="164791">Hake, Silver </option>
+<option value="164737">Hake, Southern </option>
+<option value="164731">Hake, Spotted </option>
+<option value="164732">Hake, White </option>
+<option value="164789">Hakes, Merlucciidae (Family) **</option>
+<option value="164790">Hakes, Merluccius (Genus) **</option>
+<option value="164729">Hakes, Red And White **</option>
+<option value="553172">Halfbeak Fish Family **</option>
+<option value="165481">Halfbeak, Acute </option>
+<option value="165504">Halfbeak, Green </option>
+<option value="165474">Halfbeak, Silverstripe </option>
+<option value="165473">Halfbeaks **</option>
+<option value="169522">Halfmoon </option>
+<option value="172933">Halibut, Atlantic </option>
+<option value="172743">Halibut, California </option>
+<option value="172930">Halibut, Greenland </option>
+<option value="172932">Halibut, Pacific </option>
+<option value="167806">Hamlet, Butter </option>
+<option value="167746">Hamlet, Mutton </option>
+<option value="78022">Hares, Sea **</option>
+<option value="172566">Harvestfish, Northern </option>
+<option value="172564">Harvestfishes **</option>
+<option value="170222">Hawkfish Family **</option>
+<option value="170227">Hawkfish, Blackside </option>
+<option value="170224">Hawkfish, Redspotted </option>
+<option value="170235">Hawkfish, Stocky </option>
+<option value="161722">Herring, Atlantic </option>
+<option value="161748">Herring, Atlantic Thread </option>
+<option value="161703">Herring, Blueback </option>
+<option value="161785">Herring, Delicate Round </option>
+<option value="161825">Herring, Goldspot </option>
+<option value="623384">Herring, Lake Or Cisco </option>
+<option value="551209">Herring, Pacific </option>
+<option value="161743">Herring, Round </option>
+<option value="161707">Herring, Skipjack </option>
+<option value="161700">Herrings **</option>
+<option value="161701">Herrings, River **</option>
+<option value="646513">High-Hat </option>
+<option value="167700">Hind, Red </option>
+<option value="167696">Hind, Rock </option>
+<option value="167698">Hind, Speckled </option>
+<option value="172982">Hogchoker </option>
+<option value="170566">Hogfish </option>
+<option value="170485">Hogfish, Hawaiian </option>
+<option value="170498">Hogfish, Red </option>
+<option value="170484">Hogfish, Spanish </option>
+<option value="170483">Hogfish, Spotfin </option>
+<option value="165577">Houndfish </option>
+<option value="162006">Inconnu </option>
+<option value="167283">Irish Lord, Brown </option>
+<option value="167279">Irish Lord, Red </option>
+<option value="165036">Isopods, Giant **</option>
+<option value="168586">Jack Mackerel </option>
+<option value="168691">Jack, Almaco </option>
+<option value="168615">Jack, Bar </option>
+<option value="168756">Jack, Barred </option>
+<option value="168613">Jack, Black </option>
+<option value="168740">Jack, Bluntnose </option>
+<option value="168746">Jack, Cottonmouth </option>
+<option value="168609">Jack, Crevalle </option>
+<option value="168610">Jack, Horse-Eye </option>
+<option value="168759">Jack, Island </option>
+<option value="168641">Jack, Thick Lipped </option>
+<option value="168607">Jack, Yellow </option>
+<option value="168695">Jack, Yellowtail </option>
+<option value="169314">Jackknife-Fish </option>
+<option value="168584">Jacks **</option>
+<option value="166012">Jacksmelt </option>
+<option value="170931">Jawfish, Banded </option>
+<option value="170932">Jawfish, Dusky </option>
+<option value="170927">Jawfish, Mottled </option>
+<option value="170928">Jawfish, Yellowhead </option>
+<option value="170920">Jawfishes **</option>
+<option value="170925">Jawfishes, Spotfin **</option>
+<option value="51926">Jellyfish, Cannonball </option>
+<option value="51483">Jellyfishes, Scyphozoa (Class) **</option>
+<option value="51925">Jellyfishes, Stomolophus (Genus) **</option>
+<option value="169016">Jenny, Silver </option>
+<option value="168926">Jobfish, Green &#x2F;Uku </option>
+<option value="643071">Jobfish, Smalltoothed </option>
+<option value="171399">Kelpfish, Crevice </option>
+<option value="171476">Kelpfish, Giant </option>
+<option value="171401">Kelpfish, Spotted </option>
+<option value="171398">Kelpfish, Striped </option>
+<option value="165682">Killifish, Diamond </option>
+<option value="165685">Killifish, Goldspotted </option>
+<option value="165651">Killifish, Gulf </option>
+<option value="165645">Killifish, Marsh </option>
+<option value="165679">Killifish, Rainwater </option>
+<option value="165648">Killifish, Spotfin </option>
+<option value="165649">Killifish, Striped </option>
+<option value="165629">Killifishes **</option>
+<option value="169275">Kingfish, Gulf </option>
+<option value="169276">Kingfish, Northern </option>
+<option value="169274">Kingfish, Southern </option>
+<option value="169273">Kingfishes **</option>
+<option value="1082673">Kingsnake, Speckled </option>
+<option value="161111">Ladyfish </option>
+<option value="159699">Lamprey, Pacific </option>
+<option value="159722">Lamprey, Sea </option>
+<option value="171673">Lance, American Sand </option>
+<option value="171670">Lances, Sand </option>
+<option value="171671">Lances, Sand **</option>
+<option value="162527">Lancetfish, Longnose </option>
+<option value="169725">Leaffish, African </option>
+<option value="168673">Leatherjack </option>
+<option value="641950">Leatherskin, Largemouthed </option>
+<option value="69510">Limpets **</option>
+<option value="167116">Lingcod </option>
+<option value="166885">Lionfish </option>
+<option value="166893">Lionfish, Hawaiian </option>
+<option value="166883">Lionfish, Red </option>
+<option value="166882">Lionfishes **</option>
+<option value="564037">Little&#x2F;Winter Skate Mix **</option>
+<option value="165876">Livebearer Family **</option>
+<option value="170338">Liza </option>
+<option value="162378">Lizardfish, California </option>
+<option value="162376">Lizardfish, Inshore </option>
+<option value="162379">Lizardfish, Offshore </option>
+<option value="162382">Lizardfish, Red </option>
+<option value="162413">Lizardfish, Slender </option>
+<option value="162375">Lizardfishes **</option>
+<option value="162374">Lizardfishes, Synodontidae (Family) **</option>
+<option value="97314">Lobster, American </option>
+<option value="199948">Lobster, Banded Spiny </option>
+<option value="97650">Lobster, California Spiny </option>
+<option value="97648">Lobster, Caribbean Spiny </option>
+<option value="97671">Lobster, Spanish **</option>
+<option value="97651">Lobster, Spotted Spiny </option>
+<option value="97660">Lobsters, Slipper **</option>
+<option value="168680">Lookdown </option>
+<option value="167276">Lords, Irish **</option>
+<option value="172485">Louvar </option>
+<option value="167612">Lumpfish </option>
+<option value="172398">Mackerel Family **</option>
+<option value="167120">Mackerel, Atka </option>
+<option value="172414">Mackerel, Atlantic </option>
+<option value="172413">Mackerel, Atlantic Chub </option>
+<option value="172368">Mackerel, Black Snake </option>
+<option value="172455">Mackerel, Bullet </option>
+<option value="172412">Mackerel, Chub </option>
+<option value="172456">Mackerel, Frigate </option>
+<option value="172435">Mackerel, King </option>
+<option value="172434">Mackerel, King And Cero **</option>
+<option value="172360">Mackerel, Snake </option>
+<option value="172436">Mackerel, Spanish </option>
+<option value="172411">Mackerels **</option>
+<option value="170046">Major, Sergeant </option>
+<option value="160990">Mantas, Unclassified **</option>
+<option value="80060">Mapleleaf </option>
+<option value="169060">Margate </option>
+<option value="169084">Margate, Black </option>
+<option value="768125">Marlin, Black </option>
+<option value="172491">Marlin, Blue </option>
+<option value="768127">Marlin, Striped </option>
+<option value="768126">Marlin, White </option>
+<option value="168570">Marlinsucker </option>
+<option value="52440">Mat, Green Sea </option>
+<option value="161732">Menhaden, Atlantic </option>
+<option value="161733">Menhaden, Finescale </option>
+<option value="161734">Menhaden, Gulf </option>
+<option value="161735">Menhaden, Yellowfin </option>
+<option value="161731">Menhadens **</option>
+<option value="164421">Midshipman, Atlantic </option>
+<option value="164414">Midshipman, Plainfin </option>
+<option value="164420">Midshipman, Specklefin </option>
+<option value="162838">Milkfish </option>
+<option value="165631">Minnow, Sheepshead </option>
+<option value="163342">Minnows **</option>
+<option value="169022">Mojarra, Bigeye </option>
+<option value="169019">Mojarra, Flagfin </option>
+<option value="169018">Mojarra, Mottled </option>
+<option value="645460">Mojarra, Slender </option>
+<option value="169015">Mojarra, Spotfin </option>
+<option value="645433">Mojarra, Striped </option>
+<option value="169032">Mojarra, Yellowfin </option>
+<option value="169013">Mojarras **</option>
+<option value="173419">Mola, Sharptail </option>
+<option value="69458">Mollusks **</option>
+<option value="165898">Molly, Sailfin </option>
+<option value="161903">Mooneyes **</option>
+<option value="168684">Moonfish, Atlantic </option>
+<option value="161197">Moray Eel, Stout </option>
+<option value="161195">Moray Eel, Yellowmargin </option>
+<option value="161173">Moray Eel, Zebra </option>
+<option value="161177">Moray, Banded </option>
+<option value="161194">Moray, California </option>
+<option value="161171">Moray, Chain </option>
+<option value="161152">Moray, False </option>
+<option value="161260">Moray, Needle-Tooth </option>
+<option value="161192">Moray, Ocellated </option>
+<option value="161193">Moray, Purplemouth </option>
+<option value="161169">Moray, Pygmy </option>
+<option value="161240">Moray, Reticulate </option>
+<option value="635843">Moray, Ruppell&#x27;S </option>
+<option value="161180">Moray, Viper </option>
+<option value="165878">Mosquitofish, Western </option>
+<option value="171967">Mudsucker, Longjaw </option>
+<option value="170351">Mullet, Fantail </option>
+<option value="170355">Mullet, Mountain </option>
+<option value="170337">Mullet, Redeye </option>
+<option value="170361">Mullet, Sharpnose </option>
+<option value="170335">Mullet, Striped </option>
+<option value="170422">Mullet, Summer </option>
+<option value="170336">Mullet, White </option>
+<option value="170333">Mullets **</option>
+<option value="165647">Mummichog </option>
+<option value="79455">Mussel, California </option>
+<option value="79555">Mussel, Ribbed </option>
+<option value="79454">Mussel, Sea </option>
+<option value="79916">Mussel, Slippershell </option>
+<option value="79913">Mussels, Fw **</option>
+<option value="567088">Mussels, Perna **</option>
+<option value="165551">Needlefish, Atlantic </option>
+<option value="165555">Needlefish, California </option>
+<option value="165548">Needlefish, Flat </option>
+<option value="165585">Needlefish, Keeltail </option>
+<option value="165553">Needlefish, Redfin </option>
+<option value="165546">Needlefishes **</option>
+<option value="78156">Nudibranchs **</option>
+<option value="82607">Octopus, Atlantic Pygmy </option>
+<option value="82611">Octopus, Atlantic White-Spotted </option>
+<option value="82610">Octopus, Caribbean Reef </option>
+<option value="82603">Octopus, Common </option>
+<option value="82590">Octopuses **</option>
+<option value="172364">Oilfish </option>
+<option value="166326">Opah </option>
+<option value="169515">Opaleye </option>
+<option value="553139">Ophidiiformes **</option>
+<option value="79779">Oyster, Atlantic Thorny </option>
+<option value="79872">Oyster, Eastern </option>
+<option value="79885">Oyster, Edible </option>
+<option value="568041">Oyster, Olympia </option>
+<option value="79868">Oyster, Pacific </option>
+<option value="161088">Paddlefish </option>
+<option value="96383">Palaemonetes **</option>
+<option value="168710">Palometa </option>
+<option value="170811">Parrotfish, Blue </option>
+<option value="170860">Parrotfish, Emerald </option>
+<option value="170862">Parrotfish, Greenblotch </option>
+<option value="170812">Parrotfish, Midnight </option>
+<option value="170855">Parrotfish, Palenose </option>
+<option value="170815">Parrotfish, Princess </option>
+<option value="170816">Parrotfish, Queen </option>
+<option value="170814">Parrotfish, Rainbow </option>
+<option value="170863">Parrotfish, Redband </option>
+<option value="170866">Parrotfish, Redfin </option>
+<option value="170880">Parrotfish, Redlip </option>
+<option value="170864">Parrotfish, Redtail </option>
+<option value="170818">Parrotfish, Regal </option>
+<option value="614618">Parrotfish, Spectacled </option>
+<option value="170875">Parrotfish, Stareye </option>
+<option value="170867">Parrotfish, Stoplight </option>
+<option value="614740">Parrotfish, Striped </option>
+<option value="170876">Parrotfish, Yellowbar </option>
+<option value="170809">Parrotfishes **</option>
+<option value="207303">Peeper, Spring </option>
+<option value="52348">Pens&#x2F;Pansies, Sea **</option>
+<option value="167791">Perch Genus, Sand **</option>
+<option value="169745">Perch, Black </option>
+<option value="169766">Perch, Dwarf </option>
+<option value="167796">Perch, Dwarf Sand </option>
+<option value="169737">Perch, Kelp </option>
+<option value="169754">Perch, Pile </option>
+<option value="169765">Perch, Reef </option>
+<option value="167793">Perch, Sand </option>
+<option value="169739">Perch, Shiner </option>
+<option value="169259">Perch, Silver </option>
+<option value="167678">Perch, White </option>
+<option value="168469">Perch, Yellow </option>
+<option value="169520">Perch, Zebra </option>
+<option value="167640">Perch-Like Fishes **</option>
+<option value="168356">Perches, True **</option>
+<option value="70394">Periwinkles, Atlantic **</option>
+<option value="168709">Permit </option>
+<option value="162143">Pickerel, Chain </option>
+<option value="169077">Pigfish </option>
+<option value="162137">Pikes **</option>
+<option value="161753">Pilchard, False </option>
+<option value="168742">Pilotfish </option>
+<option value="169187">Pinfish </option>
+<option value="169192">Pinfish, Spottail </option>
+<option value="166443">Pipefish Family **</option>
+<option value="166462">Pipefish, Bay </option>
+<option value="166446">Pipefish, Dusky </option>
+<option value="166454">Pipefish, Sargassum </option>
+<option value="644844">Pipefishes, Syngnathinae (Subfamily) **</option>
+<option value="172901">Plaice, Alaska </option>
+<option value="644358">Poacher, Sturgeon </option>
+<option value="164727">Pollock </option>
+<option value="934083">Pollock, Walleye  </option>
+<option value="66107">Polychaete, Bloodworms </option>
+<option value="68232">Polychaete, Fanworms **</option>
+<option value="68076">Polychaete, Feather-Dusters **</option>
+<option value="65164">Polychaete, Fireworms **</option>
+<option value="68304">Polychaete, Horned Christmas-T </option>
+<option value="65902">Polychaete, Sandworms **</option>
+<option value="64365">Polychaete, Sea Mouse </option>
+<option value="64358">Polychaetes, Marine Worms **</option>
+<option value="170290">Pomfret, Atlantic </option>
+<option value="170311">Pomfret, Bigscale </option>
+<option value="170289">Pomfret, Pacific </option>
+<option value="170287">Pomfrets **</option>
+<option value="168602">Pompano, African </option>
+<option value="168708">Pompano, Florida </option>
+<option value="169029">Pompano, Irish </option>
+<option value="172565">Pompano, Pacific </option>
+<option value="168707">Pompanos **</option>
+<option value="173391">Porcupinefish </option>
+<option value="173382">Porcupinefish Family **</option>
+<option value="169180">Porgies **</option>
+<option value="169196">Porgy, Grass </option>
+<option value="169197">Porgy, Jolthead </option>
+<option value="169201">Porgy, Knobbed </option>
+<option value="169203">Porgy, Littlehead </option>
+<option value="169183">Porgy, Longspine </option>
+<option value="169202">Porgy, Pluma </option>
+<option value="169207">Porgy, Red </option>
+<option value="169198">Porgy, Saucereye </option>
+<option value="169205">Porgy, Sheepshead </option>
+<option value="169193">Porgy, Silver </option>
+<option value="550889">Porgy, Unidentified </option>
+<option value="169200">Porgy, Whitebone </option>
+<option value="169086">Porkfish </option>
+<option value="630979">Pout, Ocean </option>
+<option value="95638">Prawn, Giant Tiger </option>
+<option value="171598">Prickleback, Black </option>
+<option value="171618">Prickleback, Monkeyface </option>
+<option value="171599">Prickleback, Rock </option>
+<option value="171583">Prickleback, Snake </option>
+<option value="171554">Pricklebacks **</option>
+<option value="97490">Procambarus (Crayfishes) **</option>
+<option value="170510">Puddingwife </option>
+<option value="173300">Puffer, Bandtail </option>
+<option value="173298">Puffer, Blunthead </option>
+<option value="173291">Puffer, Checkered </option>
+<option value="173299">Puffer, Least </option>
+<option value="173294">Puffer, Marbled </option>
+<option value="173290">Puffer, Northern </option>
+<option value="173286">Puffer, Oceanic </option>
+<option value="173284">Puffer, Oceanic **</option>
+<option value="173320">Puffer, Sharpnose </option>
+<option value="173285">Puffer, Smooth </option>
+<option value="173297">Puffer, Southern </option>
+<option value="173309">Puffer, Stripebelly </option>
+<option value="173289">Puffers, Sphoeroides (Genus) **</option>
+<option value="173283">Puffers, Tetraodontidae (Family) **</option>
+<option value="168144">Pumpkinseed </option>
+<option value="169362">Queenfish </option>
+<option value="163917">Quillback </option>
+<option value="174169">Racer </option>
+<option value="161015">Ratfish, Spotted </option>
+<option value="167289">Raven, Sea </option>
+<option value="160981">Ray, Bat </option>
+<option value="160985">Ray, Cownose </option>
+<option value="160997">Ray, Devil </option>
+<option value="160992">Ray, Giant Manta </option>
+<option value="160844">Ray, Lesser Electric </option>
+<option value="160833">Ray, Pacific Electric </option>
+<option value="621026">Ray,Pelagic Stingray </option>
+<option value="160806">Rays **</option>
+<option value="160960">Rays, Butterfly **</option>
+<option value="160976">Rays, Eagle **</option>
+<option value="614481">Razorfish, Baldwin&#x27;S </option>
+<option value="614552">Razorfish, Blackside </option>
+<option value="614546">Razorfish, Green </option>
+<option value="170765">Razorfish, Peacock </option>
+<option value="614513">Razorfish, Pearly </option>
+<option value="614502">Razorfish, Rosy </option>
+<option value="613036">Razorfishes **</option>
+<option value="168905">Red Snapper, Longtailed </option>
+<option value="166774">Redfish, Acadian </option>
+<option value="166756">Redfish, Deepwater </option>
+<option value="166781">Redfish, Golden </option>
+<option value="166135">Redfishes **</option>
+<option value="170086">Reeffish, Purple </option>
+<option value="613242">Reeffish, Yellowtail </option>
+<option value="168571">Remora </option>
+<option value="168572">Remora, Spearfish </option>
+<option value="168568">Remora, Unclassified **</option>
+<option value="168567">Remoras, Other **</option>
+<option value="173747">Reptiles **</option>
+<option value="166350">Ribbonfish, Polka-Dot </option>
+<option value="166343">Ribbonfish, Tapertail </option>
+<option value="166339">Ribbonfishes **</option>
+<option value="167830">Rock Basses, Pacific **</option>
+<option value="166709">Rockfish, Aurora </option>
+<option value="166761">Rockfish, Bank </option>
+<option value="166727">Rockfish, Black </option>
+<option value="166773">Rockfish, Black-And-Yellow </option>
+<option value="166728">Rockfish, Blackgill </option>
+<option value="166730">Rockfish, Blue </option>
+<option value="166733">Rockfish, Bocaccio </option>
+<option value="166752">Rockfish, Bronzespotted </option>
+<option value="166708">Rockfish, Brown </option>
+<option value="644576">Rockfish, Calico </option>
+<option value="166734">Rockfish, Canary </option>
+<option value="166758">Rockfish, Chameleon </option>
+<option value="166722">Rockfish, Chilipepper </option>
+<option value="166731">Rockfish, China </option>
+<option value="166713">Rockfish, Copper </option>
+<option value="166754">Rockfish, Cowcod </option>
+<option value="166715">Rockfish, Darkblotched </option>
+<option value="166714">Rockfish, Dusky </option>
+<option value="166760">Rockfish, Flag </option>
+<option value="166769">Rockfish, Freckled </option>
+<option value="166767">Rockfish, Gopher </option>
+<option value="166759">Rockfish, Grass </option>
+<option value="166771">Rockfish, Greenblotched </option>
+<option value="166748">Rockfish, Greenspotted </option>
+<option value="166717">Rockfish, Greenstriped </option>
+<option value="166762">Rockfish, Halfbanded </option>
+<option value="166765">Rockfish, Honeycomb </option>
+<option value="166747">Rockfish, Kelp </option>
+<option value="166755">Rockfish, Mexican </option>
+<option value="166735">Rockfish, Northern </option>
+<option value="166763">Rockfish, Olive </option>
+<option value="166707">Rockfish, Pacific Ocean Perch </option>
+<option value="166751">Rockfish, Pink </option>
+<option value="166770">Rockfish, Pinkrose </option>
+<option value="166718">Rockfish, Puget Sound </option>
+<option value="166743">Rockfish, Pygmy </option>
+<option value="166726">Rockfish, Quillback </option>
+<option value="166710">Rockfish, Redbanded </option>
+<option value="166736">Rockfish, Redstripe </option>
+<option value="166723">Rockfish, Rosethorn </option>
+<option value="166738">Rockfish, Rosy </option>
+<option value="166706">Rockfish, Rougheye </option>
+<option value="166744">Rockfish, Sharpchin </option>
+<option value="166725">Rockfish, Shortbelly </option>
+<option value="166712">Rockfish, Shortraker </option>
+<option value="166711">Rockfish, Silvergray </option>
+<option value="166757">Rockfish, Speckled </option>
+<option value="166716">Rockfish, Splitnose </option>
+<option value="166753">Rockfish, Squarespot </option>
+<option value="166749">Rockfish, Starry </option>
+<option value="166741">Rockfish, Stripetail </option>
+<option value="166768">Rockfish, Swordspine </option>
+<option value="166732">Rockfish, Tiger </option>
+<option value="166764">Rockfish, Treefish </option>
+<option value="166729">Rockfish, Vermilion </option>
+<option value="166719">Rockfish, Widow </option>
+<option value="166740">Rockfish, Yelloweye </option>
+<option value="166737">Rockfish, Yellowmouth </option>
+<option value="166720">Rockfish, Yellowtail </option>
+<option value="166705">Rockfishes **</option>
+<option value="643659">Rockhead </option>
+<option value="170945">Ronquil Family **</option>
+<option value="170954">Ronquil, Bluebanded </option>
+<option value="170951">Ronquil, Northern </option>
+<option value="166787">Rosefish, Blackbelly </option>
+<option value="615855">Roughy, Big </option>
+<option value="168840">Rover, Crimson </option>
+<option value="169503">Rudderfish **</option>
+<option value="168693">Rudderfish, Banded </option>
+<option value="169507">Rudderfish, Highfin </option>
+<option value="169504">Rudderfishes **</option>
+<option value="168612">Runner, Blue </option>
+<option value="168738">Runner, Rainbow </option>
+<option value="167123">Sablefish </option>
+<option value="167121">Sablefishes **</option>
+<option value="172488">Sailfish </option>
+<option value="169118">Salema </option>
+<option value="161996">Salmon, Atlantic </option>
+<option value="161980">Salmon, Chinook </option>
+<option value="161976">Salmon, Chum </option>
+<option value="161977">Salmon, Coho </option>
+<option value="161974">Salmon, Pacific **</option>
+<option value="161975">Salmon, Pink </option>
+<option value="161979">Salmon, Sockeye </option>
+<option value="167834">Sand Bass, Barred </option>
+<option value="167833">Sand Bass, Spotted </option>
+<option value="171674">Sand Lance, Northern </option>
+<option value="167858">Sandfish, Belted </option>
+<option value="170919">Sandfish, Pacific </option>
+<option value="171672">Sandlance, Pacific </option>
+<option value="166067">Sardine, Hawaiian Surf </option>
+<option value="161729">Sardine, Pacific </option>
+<option value="161754">Sardine, Redear </option>
+<option value="161755">Sardine, Scaled </option>
+<option value="161763">Sardine, Spanish </option>
+<option value="572698">Sardinella, Brazilian </option>
+<option value="164520">Sargassumfish </option>
+<option value="553364">Sargo </option>
+<option value="650171">Sauger </option>
+<option value="165612">Saury, Atlantic </option>
+<option value="165609">Saury, Pacific </option>
+<option value="160809">Sawfish, Smalltooth </option>
+<option value="172397">Scabbardfish, Razorback </option>
+<option value="168736">Scad, Amberstripe </option>
+<option value="168677">Scad, Bigeye </option>
+<option value="168724">Scad, Mackerel </option>
+<option value="168726">Scad, Redtail </option>
+<option value="168587">Scad, Rough </option>
+<option value="168725">Scad, Round </option>
+<option value="168723">Scads **</option>
+<option value="79734">Scallop, Atlantic Calico </option>
+<option value="79737">Scallop, Bay </option>
+<option value="79619">Scallop, Iceland </option>
+<option value="79771">Scallop, Lions-Paw </option>
+<option value="79718">Scallop, Sea </option>
+<option value="79757">Scallop, Weathervane </option>
+<option value="79611">Scallops **</option>
+<option value="167763">Scamp </option>
+<option value="168850">Schoolmaster </option>
+<option value="166827">Scorpionfish, California </option>
+<option value="166875">Scorpionfish, Devil </option>
+<option value="166803">Scorpionfish, Highfin </option>
+<option value="166805">Scorpionfish, Large Headed </option>
+<option value="166799">Scorpionfish, Longsnout </option>
+<option value="166801">Scorpionfish, Longspine </option>
+<option value="166864">Scorpionfish, Rainbow </option>
+<option value="166862">Scorpionfish, Reef </option>
+<option value="166794">Scorpionfish, Spinycheek </option>
+<option value="166825">Scorpionfish, Spotted </option>
+<option value="166872">Scorpionfish, Titan </option>
+<option value="166704">Scorpionfishes **</option>
+<option value="167275">Sculpin, Arctic Staghorn </option>
+<option value="167215">Sculpin, Bonehead </option>
+<option value="167267">Sculpin, Buffalo </option>
+<option value="167270">Sculpin, Bull </option>
+<option value="167230">Sculpin, Coastrange </option>
+<option value="167292">Sculpin, Dusky </option>
+<option value="167315">Sculpin, Great </option>
+<option value="644470">Sculpin, Grunt </option>
+<option value="167269">Sculpin, Leister </option>
+<option value="167320">Sculpin, Longhorn </option>
+<option value="167291">Sculpin, Northern </option>
+<option value="167302">Sculpin, Pacific Staghorn </option>
+<option value="167212">Sculpin, Padded </option>
+<option value="167233">Sculpin, Prickly </option>
+<option value="167218">Sculpin, Rosylip </option>
+<option value="167329">Sculpin, Sailfin </option>
+<option value="643765">Sculpin, Scaled </option>
+<option value="167213">Sculpin, Scalyhead </option>
+<option value="167369">Sculpin, Scissortail </option>
+<option value="167223">Sculpin, Sharpnose </option>
+<option value="167318">Sculpin, Shorthorn </option>
+<option value="167214">Sculpin, Smoothhead </option>
+<option value="167294">Sculpin, Spotfin </option>
+<option value="167333">Sculpin, Tidepool </option>
+<option value="167188">Sculpin, Twohorn </option>
+<option value="167227">Sculpin, Wooly </option>
+<option value="167196">Sculpins **</option>
+<option value="167199">Sculpins, Scaled </option>
+<option value="169182">Scup </option>
+<option value="167918">Sea Bass, Giant </option>
+<option value="166493">Seahorse, Dwarf </option>
+<option value="166488">Seahorse, Lined </option>
+<option value="166487">Seahorses **</option>
+<option value="169769">Seaperch, Pink </option>
+<option value="169761">Seaperch, Rainbow </option>
+<option value="169755">Seaperch, Rubberlip </option>
+<option value="169752">Seaperch, Sharpnose </option>
+<option value="169744">Seaperch, Striped </option>
+<option value="169751">Seaperch, White </option>
+<option value="167010">Searobin, Armored </option>
+<option value="166986">Searobin, Bandtail </option>
+<option value="166996">Searobin, Bigeye </option>
+<option value="166977">Searobin, Bighead </option>
+<option value="166991">Searobin, Blackwing </option>
+<option value="167000">Searobin, Horned </option>
+<option value="166976">Searobin, Leopard </option>
+<option value="166995">Searobin, Lumptail </option>
+<option value="166987">Searobin, Mexican </option>
+<option value="166974">Searobin, Northern </option>
+<option value="166978">Searobin, Spiny </option>
+<option value="166975">Searobin, Striped </option>
+<option value="166972">Searobins **</option>
+<option value="166973">Searobins, North American **</option>
+<option value="169243">Seatrout, Sand </option>
+<option value="169240">Seatrout, Silver </option>
+<option value="169239">Seatrout, Spotted </option>
+<option value="169238">Seatrouts **</option>
+<option value="170427">Sennet, Northern </option>
+<option value="170597">Senorita </option>
+<option value="170049">Sergeant, Blackspot </option>
+<option value="170048">Sergeant, Hawaiian </option>
+<option value="170047">Sergeant, Night </option>
+<option value="161705">Shad, Alabama </option>
+<option value="161702">Shad, American </option>
+<option value="161737">Shad, Gizzard </option>
+<option value="161704">Shad, Hickory </option>
+<option value="161738">Shad, Threadfin </option>
+<option value="160783">Shark, Angel Family **</option>
+<option value="160787">Shark, Angel, Atlantic </option>
+<option value="159907">Shark, Basking </option>
+<option value="160307">Shark, Bignose </option>
+<option value="160365">Shark, Black-Tipped Reef </option>
+<option value="160304">Shark, Blacknose </option>
+<option value="160318">Shark, Blacktip </option>
+<option value="160424">Shark, Blue </option>
+<option value="160502">Shark, Bonnethead </option>
+<option value="159988">Shark, Brown Cat </option>
+<option value="160236">Shark, Brown Smoothhound </option>
+<option value="160275">Shark, Bull </option>
+<option value="160703">Shark, Dogfish, Black </option>
+<option value="160060">Shark, Dogfish, Chain </option>
+<option value="160230">Shark, Dogfish, Smooth </option>
+<option value="160617">Shark, Dogfish, Spiny </option>
+<option value="160268">Shark, Dusky </option>
+<option value="160409">Shark, Finetooth </option>
+<option value="160345">Shark, Galapagos </option>
+<option value="160235">Shark, Gray Smoothhound </option>
+<option value="160499">Shark, Hammerhead Genus **</option>
+<option value="160515">Shark, Hammerhead, Great </option>
+<option value="160508">Shark, Hammerhead, Scalloped </option>
+<option value="160519">Shark, Hammerhead, Smalleye </option>
+<option value="160505">Shark, Hammerhead, Smooth </option>
+<option value="159791">Shark, Horn </option>
+<option value="563987">Shark, Large Pelagic Species **</option>
+<option value="160433">Shark, Lemon </option>
+<option value="160448">Shark, Leopard </option>
+<option value="159926">Shark, Mako, Longfin </option>
+<option value="159924">Shark, Mako, Shortfin </option>
+<option value="160413">Shark, Night </option>
+<option value="159977">Shark, Nurse </option>
+<option value="160785">Shark, Pacific Angel </option>
+<option value="160610">Shark, Pacific Sleeper </option>
+<option value="159911">Shark, Porbeagle </option>
+<option value="160336">Shark, Reef </option>
+<option value="160178">Shark, Requiem **</option>
+<option value="160267">Shark, Requiem Genus **</option>
+<option value="159910">Shark, Salmon </option>
+<option value="159888">Shark, Sand Tiger </option>
+<option value="160289">Shark, Sandbar </option>
+<option value="159829">Shark, Sevengill </option>
+<option value="160200">Shark, Sharpnose, Atlantic </option>
+<option value="160310">Shark, Silky </option>
+<option value="159819">Shark, Sixgill </option>
+<option value="160340">Shark, Smalltail </option>
+<option value="160401">Shark, Spinner </option>
+<option value="160089">Shark, Swell </option>
+<option value="159916">Shark, Thresher </option>
+<option value="159921">Shark, Thresher, Bigeye </option>
+<option value="160189">Shark, Tiger </option>
+<option value="160181">Shark, Tope </option>
+<option value="159903">Shark, White </option>
+<option value="160330">Shark, Whitetip, Oceanic </option>
+<option value="160602">Sharks **</option>
+<option value="159785">Sharks, Chondrichthyes (Class) **</option>
+<option value="160604">Sharks, Dogfish **</option>
+<option value="160497">Sharks, Hammerhead **</option>
+<option value="159901">Sharks, Mackerel **</option>
+<option value="159923">Sharks, Mako **</option>
+<option value="159851">Sharks, Pelagic **</option>
+<option value="159786">Sharks, Small Coastal **</option>
+<option value="159915">Sharks, Thresher **</option>
+<option value="168575">Sharksucker </option>
+<option value="168576">Sharksucker, Whitefin </option>
+<option value="170744">Sheephead, California </option>
+<option value="169189">Sheepshead </option>
+<option value="163368">Shiner, Golden </option>
+<option value="635651">Shrimp Eel </option>
+<option value="95750">Shrimp, Atlanic Seabob </option>
+<option value="97298">Shrimp, Banded Coral </option>
+<option value="98208">Shrimp, Blue Mud </option>
+<option value="83691">Shrimp, Brine </option>
+<option value="96896">Shrimp, Cleaner </option>
+<option value="684690">Shrimp, Farfantepenaeus Spp **</option>
+<option value="96220">Shrimp, Fw **</option>
+<option value="97732">Shrimp, Ghost **</option>
+<option value="97297">Shrimp, Golden Coral </option>
+<option value="95600">Shrimp, Marine **</option>
+<option value="96967">Shrimp, Northern </option>
+<option value="551570">Shrimp, Northern Brown </option>
+<option value="551574">Shrimp, Northern Pink </option>
+<option value="551680">Shrimp, Northern White </option>
+<option value="96970">Shrimp, Ocean </option>
+<option value="96038">Shrimp, Pacific Rock </option>
+<option value="96421">Shrimp, Pederson Cleaner </option>
+<option value="96893">Shrimp, Peppermint </option>
+<option value="96028">Shrimp, Rock </option>
+<option value="95647">Shrimp, Roughneck **</option>
+<option value="95966">Shrimp, Royal Red </option>
+<option value="96979">Shrimp, Spot </option>
+<option value="96424">Shrimp, Spotted Cleaner </option>
+<option value="96106">Shrimps **</option>
+<option value="95603">Shrimps, Bait **</option>
+<option value="97106">Shrimps, Crangon **</option>
+<option value="99140">Shrimps, Mantis **</option>
+<option value="95602">Shrimps, Penaeid **</option>
+<option value="95601">Shrimps, Penaeoid **</option>
+<option value="96601">Shrimps, Pistol Or Snapping **</option>
+<option value="96027">Shrimps, Rock **</option>
+<option value="172438">Sierra, Gulf </option>
+<option value="172440">Sierra, Pacific </option>
+<option value="172537">Silver-Rag </option>
+<option value="165994">Silverside, Atlantic </option>
+<option value="166006">Silverside, Hardhead </option>
+<option value="166007">Silverside, Hawaiian </option>
+<option value="165993">Silverside, Inland </option>
+<option value="165989">Silverside, Rough </option>
+<option value="165984">Silversides, Atherinidae (Family) **</option>
+<option value="160935">Skate, Aleutian </option>
+<option value="564139">Skate, Barndoor </option>
+<option value="160848">Skate, Big </option>
+<option value="564115">Skate, Black </option>
+<option value="160849">Skate, California </option>
+<option value="160855">Skate, Clearnose </option>
+<option value="564130">Skate, Little </option>
+<option value="160851">Skate, Longnose </option>
+<option value="564136">Skate, Rosette </option>
+<option value="160942">Skate, Roughtail </option>
+<option value="160875">Skate, Roundel </option>
+<option value="160937">Skate, Sandpaper </option>
+<option value="564151">Skate, Smooth </option>
+<option value="564140">Skate, Speckled </option>
+<option value="160932">Skate, Spinytail </option>
+<option value="160854">Skate, Starry </option>
+<option value="564149">Skate, Thorny </option>
+<option value="564145">Skate, Winter </option>
+<option value="160846">Skates, Raja (Genus) **</option>
+<option value="160845">Skates, Rajidae (Family) **</option>
+<option value="164460">Skilletfish </option>
+<option value="165570">Skippers **</option>
+<option value="171921">Sleeper, Bigmouth </option>
+<option value="171919">Sleeper, Fat </option>
+<option value="172171">Sleepers **</option>
+<option value="173819">Slider </option>
+<option value="567533">Slug, Lettuce </option>
+<option value="162051">Smelt, Eulachon </option>
+<option value="162049">Smelt, Longfin </option>
+<option value="162048">Smelt, Night </option>
+<option value="162041">Smelt, Rainbow </option>
+<option value="162030">Smelt, Surf </option>
+<option value="162053">Smelt, Whitebait </option>
+<option value="162028">Smelts **</option>
+<option value="162057">Smelts, Herring **</option>
+<option value="160234">Smoothhound, Florida </option>
+<option value="160239">Smoothhound, Sicklefin </option>
+<option value="73048">Snail, Angular Triton </option>
+<option value="74107">Snail, Bruised Nassa </option>
+<option value="70088">Snail, Chestnut Turban </option>
+<option value="74111">Snail, Eastern Mud </option>
+<option value="72774">Snail, Flamingo Tongue </option>
+<option value="74544">Snail, Florida Miter </option>
+<option value="72961">Snail, Shark Eye </option>
+<option value="72623">Snail, Slipper Limpet </option>
+<option value="74182">Snail, True Tulip </option>
+<option value="167572">Snailfish, Showy </option>
+<option value="69459">Snails **</option>
+<option value="71935">Snails, Cerithidean **</option>
+<option value="75281">Snails, Cone **</option>
+<option value="73001">Snails, Helmet **</option>
+<option value="74378">Snails, Marginella **</option>
+<option value="76456">Snails, Melampus **</option>
+<option value="72878">Snails, Moon **</option>
+<option value="73236">Snails, Murex **</option>
+<option value="74103">Snails, Nassa **</option>
+<option value="70159">Snails, Nerites **</option>
+<option value="74222">Snails, Olive **</option>
+<option value="72386">Snails, Purple Sea **</option>
+<option value="69948">Snails, Tegula **</option>
+<option value="69794">Snails, Topsnail **</option>
+<option value="566913">Snails, Triton **</option>
+<option value="566920">Snails, Turban **</option>
+<option value="74474">Snails, Turbonella **</option>
+<option value="72232">Snails, Wentletrap **</option>
+<option value="1081826">Snake, Black Rat </option>
+<option value="563904">Snake, Diamondback Water </option>
+<option value="174243">Snake, Green Water </option>
+<option value="174172">Snake, Rough Green </option>
+<option value="174248">Snake, Southern Water </option>
+<option value="174244">Snake, Water, Plain-Bellied </option>
+<option value="162420">Snakefish </option>
+<option value="166680">Snakehead, Northern </option>
+<option value="174133">Snakes, Garter (Ribbon) **</option>
+<option value="168919">Snapper, Binghams </option>
+<option value="168899">Snapper, Black </option>
+<option value="168852">Snapper, Blackfin </option>
+<option value="168863">Snapper, Blacktail </option>
+<option value="168862">Snapper, Bluestripe </option>
+<option value="168859">Snapper, Caribbean Red </option>
+<option value="168847">Snapper, Cubera </option>
+<option value="168857">Snapper, Dog </option>
+<option value="168181">Snapper, Glasseye </option>
+<option value="168848">Snapper, Gray </option>
+<option value="168929">Snapper, Ironjaw </option>
+<option value="168860">Snapper, Lane </option>
+<option value="168858">Snapper, Mahogany </option>
+<option value="168849">Snapper, Mutton </option>
+<option value="168916">Snapper, Pink </option>
+<option value="168902">Snapper, Queen </option>
+<option value="168853">Snapper, Red </option>
+<option value="168903">Snapper, Ruby </option>
+<option value="168861">Snapper, Silk </option>
+<option value="168909">Snapper, Vermilion </option>
+<option value="168918">Snapper, Von Siebolds </option>
+<option value="168907">Snapper, Yellowtail </option>
+<option value="168845">Snappers, Lutjanidae (Family) **</option>
+<option value="167648">Snook, Common </option>
+<option value="167646">Snook, Fat </option>
+<option value="167645">Snook, Swordspine </option>
+<option value="167647">Snook, Tarpon </option>
+<option value="167643">Snooks **</option>
+<option value="166404">Snout, Tube </option>
+<option value="167990">Soapfish, Greater </option>
+<option value="167987">Soapfish, Whitespotted </option>
+<option value="167983">Soapfishes, Rypticus (Genus) **</option>
+<option value="166240">Soldierfish, Bigeye </option>
+<option value="166215">Soldierfish, Bigscale </option>
+<option value="166211">Soldierfish, Blackbar </option>
+<option value="166234">Soldierfish, Brick </option>
+<option value="166212">Soldierfish, Epaulette </option>
+<option value="166246">Soldierfish, Roughscale </option>
+<option value="166237">Soldierfish, Whitetip </option>
+<option value="166220">Soldierfish, Yellowfin </option>
+<option value="172784">Sole, Bigmouth </option>
+<option value="172919">Sole, Butter </option>
+<option value="172923">Sole, C-O </option>
+<option value="172924">Sole, Curlfin </option>
+<option value="172866">Sole, Deepsea </option>
+<option value="172887">Sole, Dover </option>
+<option value="172921">Sole, English </option>
+<option value="172800">Sole, Fantail </option>
+<option value="172875">Sole, Flathead </option>
+<option value="172991">Sole, Naked </option>
+<option value="172868">Sole, Petrale </option>
+<option value="172978">Sole, Rex </option>
+<option value="172917">Sole, Rock </option>
+<option value="173105">Sole, Rock </option>
+<option value="172928">Sole, Sand </option>
+<option value="172871">Sole, Slender </option>
+<option value="172907">Sole, Yellowfin </option>
+<option value="172980">Soles **</option>
+<option value="172990">Soles, Naked And Fringed **</option>
+<option value="173060">Soles, Tongue **</option>
+<option value="553178">Spadefish **</option>
+<option value="169539">Spadefish, Atlantic </option>
+<option value="172502">Spearfish, Longbill </option>
+<option value="172503">Spearfish, Shortbill </option>
+<option value="172498">Spearfishes **</option>
+<option value="161690">Spiny Eel </option>
+<option value="163603">Splittail </option>
+<option value="196435">Sponge, Glove </option>
+<option value="196436">Sponge, Grass </option>
+<option value="47782">Sponge, Red Ball </option>
+<option value="47618">Sponge, Sheepswool </option>
+<option value="196437">Sponge, Wire </option>
+<option value="196434">Sponge, Yellow </option>
+<option value="46861">Sponges **</option>
+<option value="47528">Sponges, Demospongiae **</option>
+<option value="47614">Sponges, Sheepswool **</option>
+<option value="161551">Spoon-Nose Eel, Spotted </option>
+<option value="169267">Spot </option>
+<option value="172580">Squaretail, Smalleye </option>
+<option value="163522">Squawfishes **</option>
+<option value="82379">Squid, Atlantic Brief </option>
+<option value="82371">Squid, California Market </option>
+<option value="82538">Squid, Jumbo </option>
+<option value="82372">Squid, Longfin Loligo </option>
+<option value="82521">Squid, Shortfin Illex </option>
+<option value="82367">Squids **</option>
+<option value="82369">Squids, Loliginidae **</option>
+<option value="99143">Squilla Empusa </option>
+<option value="166172">Squirrelfish </option>
+<option value="622109">Squirrelfish, Deepwater </option>
+<option value="622129">Squirrelfish, Longjaw </option>
+<option value="166173">Squirrelfish, Longspine </option>
+<option value="622125">Squirrelfish, Reef </option>
+<option value="166258">Squirrelfish, Saber </option>
+<option value="622117">Squirrelfish, Striped </option>
+<option value="166264">Squirrelfish, Tahitian </option>
+<option value="166170">Squirrelfishes **</option>
+<option value="157366">Star, Basket </option>
+<option value="157486">Star, Black Brittle </option>
+<option value="157518">Star, Scaly Brittle </option>
+<option value="157520">Star, Serpent Brittle </option>
+<option value="157187">Star, Spiny Sea </option>
+<option value="171038">Stargazer, Arrow </option>
+<option value="171055">Stargazer, Northern </option>
+<option value="171051">Stargazer, Saddle </option>
+<option value="171056">Stargazer, Southern </option>
+<option value="171053">Stargazers **</option>
+<option value="157325">Stars, Brittle **</option>
+<option value="158541">Stars, Feather **</option>
+<option value="156862">Stars, Other Sea **</option>
+<option value="166363">Stickleback Family **</option>
+<option value="166397">Stickleback, Fourspine </option>
+<option value="166387">Stickleback, Ninespine </option>
+<option value="166365">Stickleback, Threespine </option>
+<option value="160953">Stingray, Atlantic </option>
+<option value="160954">Stingray, Bluntnose </option>
+<option value="160949">Stingray, Diamond </option>
+<option value="160952">Stingray, Roughtail </option>
+<option value="564424">Stingray, Round </option>
+<option value="160951">Stingray, Southern </option>
+<option value="621035">Stingray, Yellow </option>
+<option value="160946">Stingrays, Dasyatidae (Family) **</option>
+<option value="553269">Sturgeon, Atlantic </option>
+<option value="161067">Sturgeon, Green </option>
+<option value="161069">Sturgeon, Shortnose </option>
+<option value="161068">Sturgeon, White </option>
+<option value="161064">Sturgeons **</option>
+<option value="553273">Sucker, White </option>
+<option value="163892">Suckers **</option>
+<option value="168132">Sunfish, Green </option>
+<option value="173414">Sunfish, Ocean </option>
+<option value="168131">Sunfish, Redbreast </option>
+<option value="168154">Sunfish, Redear </option>
+<option value="168155">Sunfish, Spotted </option>
+<option value="168093">Sunfishes **</option>
+<option value="173412">Sunfishes, Ocean **</option>
+<option value="170082">Sunshinefish </option>
+<option value="169758">Surfperch, Barred </option>
+<option value="169759">Surfperch, Calico </option>
+<option value="169757">Surfperch, Redtail </option>
+<option value="169748">Surfperch, Silver </option>
+<option value="169749">Surfperch, Spotfin </option>
+<option value="169747">Surfperch, Walleye </option>
+<option value="169735">Surfperches **</option>
+<option value="172252">Surgeon, Ocean </option>
+<option value="172288">Surgeonfish Genus, Unicorn **</option>
+<option value="172306">Surgeonfish, Black </option>
+<option value="172267">Surgeonfish, Bluelined </option>
+<option value="172266">Surgeonfish, Brown </option>
+<option value="172260">Surgeonfish, Eyestriped </option>
+<option value="172307">Surgeonfish, Goldring </option>
+<option value="172256">Surgeonfish, Gulf </option>
+<option value="172268">Surgeonfish, Orangeband </option>
+<option value="172275">Surgeonfish, Ringtai </option>
+<option value="172264">Surgeonfish, White Bar </option>
+<option value="172259">Surgeonfish, Yellowfin </option>
+<option value="172250">Surgeonfishes **</option>
+<option value="169472">Sweeper, Glassy </option>
+<option value="172482">Swordfish </option>
+<option value="172480">Swordfishes, Unclassified **</option>
+<option value="172261">Tang, Achilles </option>
+<option value="172254">Tang, Blue </option>
+<option value="172270">Tang, Convict </option>
+<option value="172315">Tang, Sailfin </option>
+<option value="172314">Tang, Yellow </option>
+<option value="161116">Tarpon </option>
+<option value="161109">Tarpon Family **</option>
+<option value="167857">Tattler </option>
+<option value="170479">Tautog </option>
+<option value="635879">Tenpounder, Hawaiian </option>
+<option value="173780">Terrapin, Diamondback </option>
+<option value="160824">Thornback </option>
+<option value="166784">Thornyhead, Longspine </option>
+<option value="166783">Thornyhead, Shortspine </option>
+<option value="170447">Threadfin, Atlantic </option>
+<option value="170450">Threadfin, Littlescale </option>
+<option value="170453">Threadfin, Six-Fingered </option>
+<option value="170445">Threadfins **</option>
+<option value="80035">Threeridge </option>
+<option value="553311">Tilapia </option>
+<option value="170014">Tilapia, Blue **</option>
+<option value="169809">Tilapias **</option>
+<option value="168542">Tilefish, Anchor </option>
+<option value="168541">Tilefish, Blackline </option>
+<option value="168543">Tilefish, Blueline </option>
+<option value="168546">Tilefish, Golden </option>
+<option value="168544">Tilefish, Goldface </option>
+<option value="645611">Tilefish, Pacific Golden-Eyed </option>
+<option value="168548">Tilefish, Sand </option>
+<option value="168537">Tilefishes **</option>
+<option value="165554">Timucu </option>
+<option value="164424">Toadfish, Gulf </option>
+<option value="164425">Toadfish, Leopard </option>
+<option value="164423">Toadfish, Oyster </option>
+<option value="164412">Toadfishes, Batrachoididae (Family) **</option>
+<option value="208070">Toads, European Spadefoot **</option>
+<option value="1094914">Toads, True </option>
+<option value="167859">Tobaccofish </option>
+<option value="173321">Toby, Ambon </option>
+<option value="164720">Tomcod, Atlantic </option>
+<option value="164719">Tomcod, Pacific </option>
+<option value="169058">Tomtate </option>
+<option value="173062">Tongue, Blackcheek </option>
+<option value="165653">Topminnow, Saltmarsh </option>
+<option value="165986">Topsmelt </option>
+<option value="160834">Torpedo, Atlantic </option>
+<option value="1095495">Treefrog, Gray </option>
+<option value="1094181">Treefrog, Green </option>
+<option value="1095381">Treefrog, Green </option>
+<option value="168620">Trevally, Bigeye </option>
+<option value="168619">Trevally, Bluefin </option>
+<option value="168618">Trevally, Giant </option>
+<option value="168753">Trevally, Golden </option>
+<option value="173140">Triggerfish, Finescale </option>
+<option value="173138">Triggerfish, Gray </option>
+<option value="173203">Triggerfish, Lagoon </option>
+<option value="173210">Triggerfish, Lei </option>
+<option value="173170">Triggerfish, Ocean </option>
+<option value="173139">Triggerfish, Queen </option>
+<option value="173206">Triggerfish, Reef </option>
+<option value="173169">Triggerfish, Rough </option>
+<option value="173187">Triggerfish, Sargassum </option>
+<option value="173128">Triggerfishes **</option>
+<option value="169007">Tripletail </option>
+<option value="162003">Trout, Brook </option>
+<option value="161997">Trout, Brown </option>
+<option value="161983">Trout, Cutthroat </option>
+<option value="162002">Trout, Lake </option>
+<option value="161989">Trout, Rainbow </option>
+<option value="161931">Trouts **</option>
+<option value="161994">Trouts, Sea Run **</option>
+<option value="166411">Trumpetfish </option>
+<option value="166412">Trumpetfish </option>
+<option value="173237">Trunkfish </option>
+<option value="173239">Trunkfish, Smooth </option>
+<option value="173238">Trunkfish, Spotted </option>
+<option value="173236">Trunkfishes, Three-Angled **</option>
+<option value="172419">Tuna, Albacore </option>
+<option value="172428">Tuna, Bigeye </option>
+<option value="172405">Tuna, Black Skipjack </option>
+<option value="172427">Tuna, Blackfin </option>
+<option value="172421">Tuna, Bluefin </option>
+<option value="172422">Tuna, Bluefin Pacific </option>
+<option value="172403">Tuna, Kawakawa </option>
+<option value="172402">Tuna, Little Tunny </option>
+<option value="172401">Tuna, Skipjack </option>
+<option value="172423">Tuna, Yellowfin </option>
+<option value="172418">Tunas **</option>
+<option value="172399">Tunas, Little **</option>
+<option value="158854">Tunicates, Sea Squirts **</option>
+<option value="172945">Turbot, Diamond </option>
+<option value="172926">Turbot, Hornyhead </option>
+<option value="172925">Turbot, Spotted </option>
+<option value="668671">Turtle, Alligator Snapping </option>
+<option value="173758">Turtle, Common Musk </option>
+<option value="173833">Turtle, Green Sea </option>
+<option value="173830">Turtle, Loggerhead </option>
+<option value="668678">Turtle, Mississippi Map **</option>
+<option value="173783">Turtle, Painted </option>
+<option value="173759">Turtle, Razor-Backed Musk </option>
+<option value="173803">Turtle, Sliders **</option>
+<option value="173846">Turtle, Soft-Shell **</option>
+<option value="173782">Turtles, Baby (Young Fw) **</option>
+<option value="173762">Turtles, Mud **</option>
+<option value="208674">Turtles, North American Softshell **</option>
+<option value="173752">Turtles, Snapping </option>
+<option value="613235">Uhu </option>
+<option value="172297">Unicorn Fish, Orangespine </option>
+<option value="172290">Unicorn Fish, Whitemargin </option>
+<option value="166338">Unicornfish </option>
+<option value="172289">Unicornfish, Blue Spine </option>
+<option value="172292">Unicornfish, Paletail </option>
+<option value="172294">Unicornfish, Sleek </option>
+<option value="157921">Urchin, Green Sea, (L. Variegatus) </option>
+<option value="157969">Urchin, Green Sea, (S. Droebachiensis) </option>
+<option value="157906">Urchin, Purple-Spined Sea </option>
+<option value="157958">Urchin, Rock Boring </option>
+<option value="157826">Urchin, Slate Pencil </option>
+<option value="157821">Urchins, Sea, Echinoidea (Class) **</option>
+<option value="157968">Urchins, Sea, Strongylocentrotus (Genus) **</option>
+<option value="162000">Varden, Dolly </option>
+<option value="914179">Vertebrates, Jawed **</option>
+<option value="172451">Wahoo </option>
+<option value="650173">Walleye </option>
+<option value="168138">Warmouth </option>
+<option value="80279">Washboard </option>
+<option value="169241">Weakfish </option>
+<option value="168913">Wenchman </option>
+<option value="180403">Whales **</option>
+<option value="168569">Whalesucker </option>
+<option value="74096">Whelk, Channeled </option>
+<option value="74071">Whelk, Knobbed </option>
+<option value="74075">Whelk, Lightning </option>
+<option value="73795">Whelk, Waved </option>
+<option value="74069">Whelks **</option>
+<option value="74070">Whelks, Busycon **</option>
+<option value="172725">Whiff, Bay </option>
+<option value="172724">Whiff, Spotted </option>
+<option value="161941">Whitefish, Lake </option>
+<option value="168540">Whitefish, Ocean </option>
+<option value="162008">Whitefish, Round </option>
+<option value="172746">Windowpane </option>
+<option value="171345">Wolf-Eel </option>
+<option value="171341">Wolffish, Atlantic </option>
+<option value="550561">Wolffish, Northern </option>
+<option value="171342">Wolffish, Spotted </option>
+<option value="171335">Wolffishes  </option>
+<option value="170652">Wrasse, Bird </option>
+<option value="170509">Wrasse, Blackear </option>
+<option value="613623">Wrasse, Blackspot </option>
+<option value="170569">Wrasse, Blacktail </option>
+<option value="170595">Wrasse, Christmas </option>
+<option value="170507">Wrasse, Clown </option>
+<option value="170496">Wrasse, Creole </option>
+<option value="170706">Wrasse, Dragon </option>
+<option value="170502">Wrasse, Greenband </option>
+<option value="170512">Wrasse, Ornate </option>
+<option value="170477">Wrasse, Other **</option>
+<option value="170504">Wrasse, Painted </option>
+<option value="613276">Wrasse, Pearl </option>
+<option value="170602">Wrasse, Psychedelic </option>
+<option value="170508">Wrasse, Rainbow </option>
+<option value="614080">Wrasse, Ringtail </option>
+<option value="170511">Wrasse, Rock </option>
+<option value="170571">Wrasse, Saddle </option>
+<option value="170580">Wrasse, Surge </option>
+<option value="170506">Wrasse, Yellowhead </option>
+<option value="170505">Wrasse,Yellowcheek </option>
+<option value="167914">Wreckfish </option>
+<option value="171609">Wrymouth </option>
+</select></td>
+<td align="center" class="shuttleControl">
+<button id="P200_SPECIES_RESET" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Reset" aria-label="Reset"> <span class="a-Icon icon-shuttle-reset" aria-hidden="true"></span></button><button id="P200_SPECIES_MOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move All" aria-label="Move All"> <span class="a-Icon icon-shuttle-move-all" aria-hidden="true"></span></button><button id="P200_SPECIES_MOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Move" aria-label="Move"> <span class="a-Icon icon-shuttle-move" aria-hidden="true"></span></button><button id="P200_SPECIES_REMOVE" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove" aria-label="Remove"> <span class="a-Icon icon-shuttle-remove" aria-hidden="true"></span></button><button id="P200_SPECIES_REMOVE_ALL" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Remove All" aria-label="Remove All"> <span class="a-Icon icon-shuttle-remove-all" aria-hidden="true"></span></button></td>
+<td class="shuttleSelect2">
+<select title="Move to" multiple="multiple" id="P200_SPECIES_RIGHT" size="10"  name="P200_SPECIES" class="shuttle_right&#x20;apex-item-select" >
+</select></td>
+<td align="center" class="shuttleSort2">
+<button id="P200_SPECIES_TOP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Top" aria-label="Top"> <span class="a-Icon icon-shuttle-top" aria-hidden="true"></span></button><button id="P200_SPECIES_UP" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Up" aria-label="Up"> <span class="a-Icon icon-shuttle-up" aria-hidden="true"></span></button><button id="P200_SPECIES_DOWN" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Down" aria-label="Down"> <span class="a-Icon icon-shuttle-down" aria-hidden="true"></span></button><button id="P200_SPECIES_BOTTOM" class="a-Button a-Button--noLabel a-Button--withIcon a-Button--small a-Button--noUI a-Button--shuttle" type="button" title="Bottom" aria-label="Bottom"> <span class="a-Icon icon-shuttle-bottom" aria-hidden="true"></span></button></td>
+</table></div>
+<button class="t-Form-helpButton js-itemHelp" data-itemhelp="276745465217676062" title="Help Text: <strong> Species</strong> " aria-label="Help Text: <strong> Species</strong> " tabindex="-1" type="button"><span class="a-Icon icon-help" aria-hidden="true"></span></button></div><span id="P200_SPECIES_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--text-field " id="P200_SEARCH_SP_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_SEARCH_SP" id="P200_SEARCH_SP_LABEL" class="t-Form-label"><strong>Search Species</strong></label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><input type="text"  id="P200_SEARCH_SP" name="P200_SEARCH_SP" class="text_field&#x20;apex-item-text" value="" size="30" maxlength=""  /><button class="t-Form-helpButton js-itemHelp" data-itemhelp="276747217064676063" title="Help Text: <strong>Search Species</strong>" aria-label="Help Text: <strong>Search Species</strong>" tabindex="-1" type="button"><span class="a-Icon icon-help" aria-hidden="true"></span></button></div><span id="P200_SEARCH_SP_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><button onclick="void(0);" class="t-Button t-Button--hot " type="button"  id="p200_search_btn"><span class="t-Button-label">Search</span></button><button onclick="apex.navigation.redirect(&#x27;f?p=215:200:12945397485704:RESET:NO:RP,200:P200_YEAR,P200_GEO_LOV:,&#x27;);" class="t-Button t-Button--hot " type="button" margin-left: 10px; margin-top  30px;color:blue id="P200_RESET"><span class="t-Button-label">Reset All Parameters</span></button><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--radiogroup " id="P200_DATA_FORMAT_STATE_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_DATA_FORMAT_STATE" id="P200_DATA_FORMAT_STATE_LABEL" class="t-Form-label"><strong>Report Format</strong></label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><div tabindex="-1"  id="P200_DATA_FORMAT_STATE" aria-labelledby="P200_DATA_FORMAT_STATE_LABEL" class="radio_group&#x20;apex-item-group&#x20;apex-item-group--rc&#x20;apex-item-radio"  role="group" aria-labelledby="P200_DATA_FORMAT_STATE_LABEL">
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_STATE_0" name="P200_DATA_FORMAT_STATE" value="YSS"  ><label for="P200_DATA_FORMAT_STATE_0">TOTALS BY YEAR&#x2F;STATE&#x2F;SPECIES</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_STATE_1" name="P200_DATA_FORMAT_STATE" value="YS"  ><label for="P200_DATA_FORMAT_STATE_1">TOTALS BY YEAR&#x2F;STATE</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_STATE_2" name="P200_DATA_FORMAT_STATE" value="YSP"  ><label for="P200_DATA_FORMAT_STATE_2">TOTALS BY YEAR&#x2F;SPECIES</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_STATE_3" name="P200_DATA_FORMAT_STATE" value="Y"  ><label for="P200_DATA_FORMAT_STATE_3">TOTALS BY YEAR</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_STATE_4" name="P200_DATA_FORMAT_STATE" value="YSDEF"  ><label for="P200_DATA_FORMAT_STATE_4">TOTALS BY YEAR&#x2F;SPECIES DEFLATED VALUE</label></div>
+</div>
+</div><span id="P200_DATA_FORMAT_STATE_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div><div class="t-Form-fieldContainer rel-col  apex-item-wrapper apex-item-wrapper--radiogroup " id="P200_DATA_FORMAT_REGION_CONTAINER"><div class="t-Form-labelContainer col col-2">
+<label for="P200_DATA_FORMAT_REGION" id="P200_DATA_FORMAT_REGION_LABEL" class="t-Form-label"><strong>Report Format</strong></label>
+</div>
+<div class="t-Form-inputContainer col col-10"><div class="t-Form-itemWrapper"><div tabindex="-1"  id="P200_DATA_FORMAT_REGION" aria-labelledby="P200_DATA_FORMAT_REGION_LABEL" class="radio_group&#x20;apex-item-group&#x20;apex-item-group--rc&#x20;apex-item-radio"  role="group" aria-labelledby="P200_DATA_FORMAT_REGION_LABEL">
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_0" name="P200_DATA_FORMAT_REGION" value="YSS"  ><label for="P200_DATA_FORMAT_REGION_0">TOTALS BY YEAR&#x2F;STATE&#x2F;SPECIES</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_1" name="P200_DATA_FORMAT_REGION" value="YRS"  ><label for="P200_DATA_FORMAT_REGION_1">TOTALS BY YEAR&#x2F;REGION&#x2F;SPECIES</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_2" name="P200_DATA_FORMAT_REGION" value="YS"  ><label for="P200_DATA_FORMAT_REGION_2">TOTALS BY YEAR&#x2F;STATE</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_3" name="P200_DATA_FORMAT_REGION" value="YR"  ><label for="P200_DATA_FORMAT_REGION_3">TOTALS BY YEAR&#x2F;REGION</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_4" name="P200_DATA_FORMAT_REGION" value="YSP"  ><label for="P200_DATA_FORMAT_REGION_4">TOTALS BY YEAR&#x2F;SPECIES</label></div>
+<div class="apex-item-option"><input type="radio" id="P200_DATA_FORMAT_REGION_5" name="P200_DATA_FORMAT_REGION" value="Y"  ><label for="P200_DATA_FORMAT_REGION_5">TOTALS BY YEAR</label></div>
+</div>
+</div><span id="P200_DATA_FORMAT_REGION_error_placeholder" class="a-Form-error" data-template-id="189890369931619138_ET"></span></div></div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><button class="t-Button t-Button--icon t-Button--large&#x20;t-Button--iconRight t-Button--hot"  onclick="void(0);" type="button" id="p200_go"><span class="t-Icon t-Icon--left " aria-hidden="true"></span><span class="t-Button-label">RUN REPORT</span><span class="t-Icon t-Icon--right " aria-hidden="true"></span></button></div>
+</div>
+</div></div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><b>
+<br/>
+Click the Run Report button to run the selected query immediately.
+</b></div>
+</div>
+</div>
+   </div>
+   <div class="t-Region-buttons t-Region-buttons--bottom">
+    <div class="t-Region-buttons-left"></div>
+    <div class="t-Region-buttons-right"></div>
+   </div>
+ </div>
+</div>
+</div>
+</div><div class="row">
+<div class="col col-12 apex-col-auto" ><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" ><div  style="color:white">
+<p>
+<b>Query results with no pounds or dollars shown indicate that landings are present in our database for the selected species but are confidential and have been grouped into "WITHHELD FOR CONFIDENTIALITY" with other confidential landings in each state.</br>
+</br>** - These names represent aggregations of more than one species.  They are not inclusive, but rather represent landings where we do not have species-specific data.  Selecting "Flatfish**", for example, will not return all flatfish but only those where we do not have more specific information.  </b>
+<li>The data presented here may not match the data in published versions of Fisheries of the United States (FUS) or in other online landings queries for the following reasons:<ul>
+<li> The data presented here may have been updated more recently than those in Fisheries of the United States.
+<li> The data are non-confidential and may not reflect true totals at the species level, as confidential data within a state have been aggregated under "WITHHELD FOR CONFIDENTIALITY." State totals include the aggregated confidential data and are correct except for states in the Gulf of Mexico.
+<li> Some species are reported by data providers in meat weight vs. live weight. Please see the partner provided metadata for these details.</li>
+
+</ul>
+</div></div>
+</div>
+</div></div>
+</div>
+</div></div>
+      </main>
+      <footer class="t-Footer" role="contentinfo">
+        <div class="t-Footer-body">
+          <div class="t-Footer-content"><div class="container">
+<div class="row">
+<div class="col col-12 apex-col-auto" >      	<div id="content-holder" style="width: 100%;display: flex;align-items:center;">
+		<div style="width: 70px; float: left; ">
+			<a href="https://www.fisheries.noaa.gov"><img src="pub_workspace/r/215/files/static/v477/noaa_logo_white.png"  style="color:white;text-align:left;" width="50" height="50" border="60" alt="NOAA Logo"></a> </div>
+                <div style="color:#ffffff;font-style: italic;font-weight: 500;font-size:18px;display:inline;float: left; " > Science. Service. Stewardship.</div>
+		
+         <div style="width: 70%; float: right;color:#ffffff;text-align: right;">			
+                              <a href="http://www.noaa.gov/accessibility" class="footer_link" title="Accessibility" >Accessibility</a>  |  
+                              <a href="https://www.fisheries.noaa.gov/about/office-equal-employment-opportunity" class="footer_link"   title="EEO" >EEO</a>  |  
+                              <a href="http://www.noaa.gov/foia-freedom-of-information-act" class="footer_link"   title="FOIA" >FOIA</a>  |  
+                              <a href="https://www.noaa.gov/organization/information-technology/policy-oversight/information-quality" class="footer_link"   title="Information Quality" >Information Quality</a>  |  
+                              <a href="https://www.fisheries.noaa.gov/disclaimer" class="footer_link"  title="Policies &amp; Disclaimer" >Policies &amp; Disclaimer</a>  |  
+                              <a href="https://www.fisheries.noaa.gov/privacy-policy" class="footer_link"   title="Privacy Policy" >Privacy Policy</a>  |  
+                              <a href="https://www.usa.gov" class="footer_link"  title="USA.gov" >USA.gov</a>
+		</div>
+	</div>
+        <div style="clear: both;">&nbsp;</div></div>
+</div>
+</div></div>
+          <div class="t-Footer-apex">
+            <div class="t-Footer-version">release 3.12.1.2</div>
+            <div class="t-Footer-customize"></div>
+            <span class="u-BuiltWithAPEX">Built with <span class="fa fa-heart"><span class="u-VisuallyHidden">love</span></span> using <a href="https://apex.oracle.com/" target="_blank" title="Oracle Application Express">Oracle APEX</a></span>
+          </div>
+        </div>
+        <div class="t-Footer-top">
+          <a href="#top" class="t-Footer-topButton" id="t_Footer_topButton"><span class="a-Icon icon-up-chevron"></span></a>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<div class="t-Body-inlineDialogs"></div><input type="hidden" id="pPageFormRegionChecksums" value="&#x5B;&#x5D;">
+<input type="hidden" id="pPageItemsRowVersion" value="" /><input type="hidden" id="pPageItemsProtected" value="XtMq9lqgMIjN7ZWUDWN09AazYL55isRZtZ7buICGueNoMX-GjZfIE1ZK9bP1cU25" /></form>
+
+
+<script>
+var apex_img_dir = "/apexfossi/", htmldb_Img_Dir = apex_img_dir;
+</script>
+<script src="/apexfossi/libraries/apex/minified/desktop_all.min.js?v=19.2.0.00.18"></script>
+<script src="wwv_flow.js_messages?p_app_id=215&p_lang=en&p_version=19.2.0.00.18-38769679154296"></script>
+<script src="/apexfossi/libraries/apex/minified/legacy_pre18.min.js?v=19.2.0.00.18"></script>
+<script src="/apexfossi/libraries/apex/minified/legacy_18.min.js?v=19.2.0.00.18"></script>
+<script src="/apexfossi/libraries/jquery-migrate/3.0.1/jquery-migrate-3.0.1.min.js?v=19.2.0.00.18"></script>
+
+<script type="text/javascript">
+apex.da.initDaEventList = function(){
+apex.da.gEventList = [
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_go","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_YEAR,P200_SPECIES",javascriptFunction:function (){ if ( $v('P200_SPECIES').length > 4000 ) {
+   $s('P200_SPECIES','9999999999');
+} ;
+
+  // alert ('Region Type' +  );
+
+    var v_year = $v('P200_YEAR');
+    var v_species = $v('P200_SPECIES');
+    var v_geo_lov = $v('P200_GEO_LOV');
+    var v_geo = $v('P200_GEOGRAPHY');
+  //  var v_geo_group = $v('P200_GEO_GROUP');
+
+      var get = new htmldb_Get(null, $v('pFlowId'), 'APPLICATION_PROCESS=P200_TRAFFIC_LOG', $v('pFlowStepId'));
+          get.add(  'P200_YEAR', v_year ); 
+          get.add(  'P200_SPECIES', v_species  ); 
+          get.add(  'P200_GEO_LOV', v_geo_lov ); 
+          get.add(  'P200_GEOGRAPHY',  v_geo ); 
+        //  get.add(  'P200_GEO_GROUP',  v_geo_group ); 
+             gReturn = get.get( );  
+//alert (gReturn );
+},"action":"NATIVE_JAVASCRIPT_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:apex.da.submitPage,"attribute02":"Y","action":"NATIVE_SUBMIT_PAGE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){    $s('P200_SEARCH_SP','');
+    
+
+
+},"action":"NATIVE_JAVASCRIPT_CODE"}]},
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_search_btn","conditionElement":"P200_SEARCH_SP","triggeringConditionType":"NOT_NULL","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_SEARCH_SP,P200_SPECIES",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_set","conditionElement":"P200_FILTER_LIST","triggeringConditionType":"NOT_NULL","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":false,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ alert('Please select a filter from dropdown list.');
+},"action":"NATIVE_JAVASCRIPT_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"waitForResult":true,javascriptFunction:apex.da.executePlSqlCode,"ajaxIdentifier":"C9_eMjKW06_TFggqjHoBtfo4Q90-y1uqwFAoqo3t0Mw","attribute01":"#P200_FILTER_LIST,#P200_SPECIES,#P200_YEAR,#P200_COLLECTION","attribute02":"#P200_FILTER_LIST,#P200_SPECIES,#P200_YEAR,#P200_COLLECTION","attribute04":"N","action":"NATIVE_EXECUTE_PLSQL_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R555781216409127259",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_update","conditionElement":"P200_FILTER_LIST","triggeringConditionType":"NOT_NULL","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":false,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ alert('Please select a Filter from dropdown list.');
+},"action":"NATIVE_JAVASCRIPT_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"waitForResult":true,javascriptFunction:apex.da.executePlSqlCode,"ajaxIdentifier":"-cRc9jrPCCcUxwWzH1Pyrx47SMv-0TSQ8pEDT886DIw","attribute01":"#P200_YEAR,#P200_SPECIES,#P200_FILTER_LIST,#P101_USERNAME,#P200_COLLECTION","attribute02":"#P200_YEAR,#P200_SPECIES,#P200_FILTER_LIST,#P101_USERNAME,#P200_COLLECTION","attribute04":"N","action":"NATIVE_EXECUTE_PLSQL_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ alert('Filter ' + '&P200_FILTER_LIST'  + ' for ' + '&P101_USERNAME' + ' was successfully updated'); 
+
+},"action":"NATIVE_JAVASCRIPT_CODE"}]},
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_save","conditionElement":"P200_FILTER_LIST","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"waitForResult":true,javascriptFunction:apex.da.executePlSqlCode,"ajaxIdentifier":"chkjUkHO5eHoYfbhtVsL1enAV7gGRwPSJ1JW6RyMyqg","attribute01":"#P200_FILTER_LIST,#P200_SPECIES,#P200_YEAR,#P200_COLLECTION,#P200_NEW_FILTER_FLAG","attribute02":"#P200_FILTER_LIST,#P200_SPECIES,#P200_YEAR,#P200_COLLECTION,#P200_NEW_FILTER_FLAG","attribute04":"N","action":"NATIVE_EXECUTE_PLSQL_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ alert( 'Filter "' + '&P200_NEW_SELECT_NAME' + '" was successfully saved.');
+},"action":"NATIVE_JAVASCRIPT_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){  $s('P200_NEW_SELECT_NAME','');
+},"action":"NATIVE_JAVASCRIPT_CODE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_NEW_SELECT_NAME",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_FILTER_LIST",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"triggeringElementType":"JAVASCRIPT_EXPRESSION","triggeringElement": function() {
+return (apex.gPageContext$
+); },"conditionElement":"P200_FILTER_LIST","bindType":"bind","bindEventType":"apexbeforepagesubmit","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,javascriptFunction:function (){ $("body").append('<div class="ui-widget-overlay ui-front"/>');
+apex.widget.waitPopup();
+},"action":"NATIVE_JAVASCRIPT_CODE"}]},
+{"triggeringElementType":"BUTTON","triggeringButtonId":"p200_save","conditionElement":"P200_FILTER_LIST","bindType":"bind","bindEventType":"click","anyActionsFireOnInit":true,actionList:[{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,"waitForResult":true,"affectedElementsType":"ITEM","affectedElements":"P200_NEW_FILTER_FLAG",javascriptFunction:apex.da.setValue,"ajaxIdentifier":"Cf-llV51q6BeQQ9yHN5eH42BXqv2M45jioivxdxMFN8","attribute01":"STATIC_ASSIGNMENT","attribute02":"Y","attribute09":"N","action":"NATIVE_SET_VALUE"},{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"REGION","affectedRegionId":"R555781216409127259",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"triggeringElementType":"ITEM","triggeringElement":"P200_GEO_LOV","conditionElement":"P200_FILTER_LIST","bindType":"bind","bindEventType":"change","anyActionsFireOnInit":false,actionList:[{"eventResult":true,"executeOnPageInit":false,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_GEOGRAPHY",javascriptFunction:apex.da.refresh,"action":"NATIVE_REFRESH"}]},
+{"triggeringElementType":"ITEM","triggeringElement":"P200_GEO_LOV","conditionElement":"P200_FILTER_LIST","bindType":"bind","bindEventType":"change","anyActionsFireOnInit":true,actionList:[{"eventResult":true,"executeOnPageInit":true,"stopExecutionOnError":true,"affectedElementsType":"ITEM","affectedElements":"P200_DATA_FORMAT_REGION,P200_DATA_FORMAT_STATE",javascriptFunction:function (){    $x_Hide('P200_DATA_FORMAT_REGION');  
+   $x_Hide('P200_DATA_FORMAT_STATE');    
+if ($f_SelectValue('P200_GEO_LOV') == 1021  )
+    {
+    $x_Show('P200_DATA_FORMAT_REGION');  
+    apex.item( "P200_DATA_FORMAT_STATE" ).setValue("")
+    };
+if ($f_SelectValue('P200_GEO_LOV') == 1025  )
+    {
+    $x_Show('P200_DATA_FORMAT_STATE');     
+    apex.item( "P200_DATA_FORMAT_REGION" ).setValue("")
+    };
+},"action":"NATIVE_JAVASCRIPT_CODE"}]}];
+}
+</script>
+
+<script src="/apexfossi/libraries/apex/minified/widget.stickyWidget.min.js?v=19.2.0.00.18"></script>
+<script src="/apexfossi/themes/theme_42/1.4/js/theme42.min.js?v=19.2.0.00.18"></script>
+
+
+
+<script type="text/javascript">
+function showhelp()
+{
+    alert('SHOWHELP JS');
+};
+
+
+function login_btn()
+{img = "pub_workspace/r/215/files/static/v477/sbtn-logout.png" ;
+   return img
+   
+}
+
+
+
+</script>  
+
+
+
+
+
+<script src="/apexfossi/libraries/apex/minified/widget.treeView.min.js?v=19.2.0.00.18"></script>
+<script src="/apexfossi/libraries/apex/minified/widget.shuttle.min.js?v=19.2.0.00.18"></script>
+
+
+<script type="text/javascript">
+apex.jQuery( function() {
+apex.page.init( this, function() {
+apex.jQuery.when.apply( apex.jQuery, apex.page.loadingDeferreds ).done(function() {
+try {
+(function(){apex.jQuery('body').addClass('t-PageBody--leftNav');})();
+(function(){apex.widget.checkboxAndRadio("#P200_COLLECTION","checkbox",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzXiZqu2Xbnov7m2dR_AKNvA5tizp7jqpQcbJEOZQJnqV","optimizeRefresh":true,"inputName":"P200_COLLECTION"});})();
+(function(){apex.widget.shuttle("#P200_YEAR",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzT7GcRZHSse2P0wKVXuIJTbIM13uhhz0E8fDh_73zNvf","optimizeRefresh":true,"optionAttributes":""});})();
+(function(){apex.widget.checkboxAndRadio("#P200_GEO_LOV","radio",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzZmQh4kglZMk7FDjW87UOFRbxI5wSZYoSo4ZmbGB_DrZ","optimizeRefresh":true,"inputName":"P200_GEO_LOV"});})();
+(function(){apex.widget.shuttle("#P200_GEOGRAPHY",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzQLCG5U-5rvrzR3ll50C7WEch1UTRbjdL9Y9BhKbHDCv","dependingOnSelector":"#P200_GEO_LOV","optimizeRefresh":true,"pageItemsToSubmit":"#P200_GEO_LOV","optionAttributes":""});})();
+(function(){apex.widget.shuttle("#P200_SPECIES",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzbmsP-NMLmpK8i4QvfB2ePX313kDUEy6lQxf423axPCl","dependingOnSelector":"#P200_SEARCH_SP","optimizeRefresh":false,"pageItemsToSubmit":"#P200_SPECIES","optionAttributes":""});})();
+(function(){apex.widget.checkboxAndRadio("#P200_DATA_FORMAT_STATE","radio",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzSCqbSmSgkinmfAdSWB19cBnDWqnw_5ZXCc4BLVop18z","optimizeRefresh":true,"inputName":"P200_DATA_FORMAT_STATE"});})();
+(function(){apex.widget.checkboxAndRadio("#P200_DATA_FORMAT_REGION","radio",{"ajaxIdentifier":"cje7Hu4g9BJgoDCORayjzf6VrOnOhU99btXPQDgz0moaB8sB97QBlJLcojfJRQ8k","optimizeRefresh":true,"inputName":"P200_DATA_FORMAT_REGION"});})();
+(function(){apex.da.initDaEventList();})();
+(function(){apex.da.init();})();
+apex.theme42.initializePage.noSideCol();
+
+} finally {
+apex.event.trigger(apex.gPageContext$,'apexreadyend');
+}
+});
+});
+});</script>
+
+</body>
+</html>

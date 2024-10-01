@@ -1388,7 +1388,7 @@ i<-0
 *November `r thisYr`* | [kirstin.holsman\@noaa.gov](mailto:kirstin.holsman@noaa.gov){.email}
 Alaska Fisheries Science Center, National Marine Fisheries Service, NOAA, 7600 Sand Point Way N.E., Seattle, Washington 98115  
 
-**Suggested citation:** _Holsman, K. K., J. Ianelli,  K. Shotwell, S. Barbeaux, K. Aydin, G. Adams, K. Kearney, K. Shotwell (2023) Climate-enhanced multispecies stock assessment for walleye pollock, Pacific cod, and arrowtooth flounder in the eastern Bering Sea. In:  Ianelli, J. et al. 2023. Assessment of the eastern Bering Sea walleye pollock. North Pacific Fishery Management Council, Anchorage, AK._
+**Suggested citation:** _Holsman, K. K., J. Ianelli,  K. Shotwell, S. Barbeaux, K. Aydin, G. Adams, K. Kearney, K. Shotwell (2023) Climate-enhanced multispecies stock assessment for walleye pollock, Pacific cod, and arrowtooth flounder in the eastern Bering Sea. North Pacific Fishery Management Council, Anchorage, AK._
 
 \pagebreak
 

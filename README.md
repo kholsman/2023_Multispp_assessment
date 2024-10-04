@@ -33,6 +33,7 @@ output:
     smooth_scroll: false
 ---
 
+![CEATTLE_icon](https://github.com/user-attachments/assets/60d1c3e5-c3f0-4388-a3e2-240830c52529){width=50%}
 
 
 

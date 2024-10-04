@@ -33,7 +33,7 @@ output:
     smooth_scroll: false
 ---
 
-![CEATTLE_icon](https://github.com/user-attachments/assets/156c97f2-0f64-4faf-9119-abe03d0b70d4){width=50%}
+![CEATTLE_icon](https://github.com/user-attachments/assets/156c97f2-0f64-4faf-9119-abe03d0b70d4){width=20%}
 
 
 

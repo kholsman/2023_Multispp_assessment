@@ -109,7 +109,7 @@ annual_ration    <- tmpDATA%>%group_by(across(all_of(c(idsetUSE2, "prey"))))%>%
 # 
 # plot_prey_core = c("Arrowtooth","W..Pollock","P..Cod","Opilio","Unid.Chion","King.Crab","other","Euphausiid","Copepod","Salmon")
 # plot_prey_core = c("Arrowtooth","W..Pollock","P..Cod","Opilio","Unid.Chion","King.Crab","other","Euphausiid","Copepod")
-plot_prey_core = c("Arrowtooth","W..Pollock","P..Cod","Opilio","Unid.Chion","King.Crab","other","Euphausiid","Copepod","Octopus")
+plot_prey_core = c("Arrowtooth","W..Pollock","P..Cod","Opilio","Unid.Chion","King.Crab","Euphausiid","Copepod","Octopus","Salmon")
 
 plot_aka_rat <- ggplot(annual_ration%>%filter(eaten!=0, prey%in%plot_prey_core))+
   geom_point(aes(x=YEAR,y=eaten*0.001/1e6,color=CN))+  #kg-->t = 0.001*, 1e6 = mt 
@@ -180,6 +180,14 @@ jpeg(file = file.path(assmnt_path,"Figs/Prey_eaten_annually.jpg"), width = 7 , h
 print(plot_rat_all)
 dev.off()
 
+annual_ration_allyr <- annual_ration_allyr%>%mutate(pred = CN, type = "ration x mean diet comp across years")%>%ungroup()%>%data.frame()
+annual_ration       <- annual_ration%>%mutate(pred = CN, type = "ration x annual diet comp (observed)")%>%ungroup()%>%data.frame()
+
 save(annual_ration_allyr,file=file.path(assmnt_path,"Figs/annual_ration_allyr.Rdata"))
 save(annual_ration,file=file.path(assmnt_path,"Figs/annual_ration.Rdata"))
+
+save(annual_ration_allyr,file=file.path(file.path(assmnt_path,"../EcoCons/ESP_indices"),"annual_ration_allyr.Rdata"))
+save(annual_ration,file=file.path(file.path(assmnt_path,"../EcoCons/ESP_indices"),"annual_ration.Rdata"))
+
+
 

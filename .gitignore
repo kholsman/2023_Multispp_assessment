@@ -17,3 +17,5 @@ Ignored
 *2023_data
 *.DS_Store
 *._**
+data
+model

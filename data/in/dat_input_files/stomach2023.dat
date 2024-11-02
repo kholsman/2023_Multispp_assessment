@@ -76,7 +76,7 @@
 1 1 1
 #nlengths : number of Length for the matrix to convert ages to lengths 
 24 24 25
-#lengths : Length for the matrix to convert ages to lenghths 
+#lengths : Length for the matrix to convert ages to lengths 
 1 6 11 16 21 26 31 36 41 46 51 56 61 66 71 76 81 86 91 96 101 106 111 116 
 1 6 11 16 21 26 31 36 41 46 51 56 61 66 71 76 81 86 91 96 101 106 111 116 
 10 16 18 20 22 24 26 28 30 32 34 36 38 40 43 46 49 52 55 58 61 64 67 70 75

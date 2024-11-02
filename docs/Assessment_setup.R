@@ -4,7 +4,7 @@
 #'
 #' Assessment_setup.R
 #' 
-    modelIN         <- "ceattle_23_1"
+    modelIN         <- "ceattle_23_1" # "ceattle_24_1"
     compileTPL      <- FALSE
     update.datFiles <- FALSE  # ROMSNPZ updates?
     hind_yearsIN    <- 1979:thisYr
@@ -12,9 +12,9 @@
     hcrset          <-  1.7
     run_versionIN   <- format(Sys.time(), "%Y%m%d%H%S")
     run_versionIN   <- "Nov_final"
-    filenm          <- "assmnt_2023"
-    modelnm         <- "assmnt_2023"
-    subctl          <- "asmnt2023"
+    filenm          <- paste0("assmnt_",thisYr)
+    modelnm         <- paste0("assmnt_",thisYr)
+    subctl          <- paste0("asmnt",thisYr) #"asmnt2024"
 
     cat("---------------------------------\n")
     cat("CEATTLE MODEL Assessment setup \n")
@@ -30,16 +30,17 @@
     cat("---------------------------------\n")
     # set up directories
   if(.Platform$OS.type=="unix"){
-    git_dir   <- "/Volumes/LaCie/GitHub_cloud"
+    git_dir   <- "/Users/KKH/Documents/GitHub_mac"
   }else{
     git_dir   <- "D:/GitHub_cloud/"
   }
+    print(paste("git_dir set to ",git_dir, "in 'docs/Assessment_setup.R'"))
      
     #
     cat("git_dir in docs/Assessment_setup set to ", git_dir,"\n")
     # git_dir   <-  git_dirIN   <- file.path(getwd(),"../../../../")
     proj_dir  <-  proj_dirIN  <- (file.path(git_dir,"CEATTLE_projects"))
-    projIN    <- "2023_Multispp_assessment" #2021_Multispp_assessment"
+    projIN    <- paste0(thisYr,"_Multispp_assessment") #2021_Multispp_assessment"
     DIR_main  <- DIR_mainIN  <- file.path(git_dir,"CEATTLE")
     
     tmpdir <- getwd()

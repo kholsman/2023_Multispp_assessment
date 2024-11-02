@@ -12,7 +12,7 @@ dat_input_files/F_profile.dat
 #ATFfile_name 
 dat_input_files/ATF_Misc.dat
 #Recfile_name    
-fits_4_CEATTLE/rs_data4CEATTLE_full_avg.dat
+fits_4_CEATTLE/rs_data4CEATTLE_TopR2_Ricker.dat
 #retrofile_name
 dat_input_files/KKHhind_ACLIM2_CMIP6_delta_bc2023.dat
 #futfile_name
@@ -33,7 +33,7 @@ dat_input_files/setF40_datfiles/F40In_0_1_9.dat
 #debugg  : debugg the model (0 =NO, 1= dump reps)
 0
 #msmMode  : model mode                                            
-2
+0
 # 0 = run in  single  species mode                                    
 # 2 = run in  MSM mode  using Juarado #NAME?  approach  but new diet  and stomach data                           
 #nspp : number  of  species                                         
